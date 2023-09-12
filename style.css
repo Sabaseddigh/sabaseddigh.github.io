@@ -2,14 +2,16 @@
 
 .slide-text {
   position: absolute;
-  bottom: 20px; 
-  left: 20px;
+  bottom: 55px; 
+text-align: center;
   color:#ffffff;
   font-size: 20px;
   font-family: 'Figtree', sans-serif;
   text-shadow: 1px 1px 1px #111111;
   letter-spacing: 0.015em;
+  z-index: 1;
 }
+
 
 body{
   font-family: 'Figtree', sans-serif;
@@ -282,7 +284,9 @@ footer .social-links a:hover {
 
   }
 
-  .slideshow .flickity-page-dots { bottom: 10px; }
+
+
+
 /* hide disabled button */
 .slideshow .flickity-button {
   display: none;
@@ -305,6 +309,14 @@ padding-bottom: 2px;
       width: 100%;
     }
     
+/* Page dots */
+.slideshow .flickity-page-dots {
+  position: absolute;
+  bottom: 25px; /* adjust as needed */
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+}
 
   /* white circles */
 .flickity-page-dots .dot {
