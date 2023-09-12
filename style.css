@@ -229,7 +229,6 @@ footer .social-links a {
 }
 footer .social-links a:hover {
   color: paleturquoise;
-  background: var(--branding-color);
 }
 
 .block--large {
