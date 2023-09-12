@@ -25,8 +25,7 @@
 
 
 <link rel="stylesheet" href="flickity.css" media="screen">
-
-<!-- JavaScript flickity-->
+<script src="flickity.pkgd.min.js"></script>
 <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 </head>
 
@@ -122,30 +121,30 @@
 <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 
 
+<!-- JavaScript flickity-->
 
-
+<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 <!-- Slick JS -->
 
-<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 
    <!-- slideshow top -->
 <script>
   $(document).ready(function() {
     // Initialize Flickity carousel
-  $('.slideshow').flickity({
-    // options
-    cellAlign: 'center',
-    contain: true ,
-    autoPlay: true,
-    pauseAutoPlayOnHover: false,
-    // advance cells every 3 seconds
-    wrapAround: true,
-    fade: true,
-    imagesLoaded: true,
-    accessibility: false,
-    setGallerySize: false
-  });
+      $('.slideshow').flickity({
+      // options
+      cellAlign: 'center',
+      contain: true ,
+      autoPlay: true,
+      pauseAutoPlayOnHover: false,
+      // advance cells every 3 seconds
+      wrapAround: true,
+      fade: true,
+      imagesLoaded: true,
+      accessibility: false,
+      setGallerySize: false
+    });
   
   });
   </script>
