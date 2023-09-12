@@ -103,8 +103,6 @@ nav li.active a {
 
 .social-links a {
   margin: 0 20px;
-  color: var(--branding-color);
-  background: var(--secondary-color);
   padding: 10px 14px;
   border-radius: 50%;
   font-size: 18px;
