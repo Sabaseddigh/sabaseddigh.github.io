@@ -35,15 +35,15 @@
    
   <div class="container-top">
   <div class="slideshow">
-  <div class="carousel-cell-top"><img src="images/photo1.jpg"><div class="slide-text">Post-Disaster Temporary Shelter Design</div></div>
-  <div class="carousel-cell-top"><img src="images/photo2.jpg"><div class="slide-text">Post-Disaster Temporary Shelter Design</div></div>  
-  <div class="carousel-cell-top"><img src="images/photo3.jpg"><div class="slide-text">Post-Disaster Temporary Shelter Design</div></div>
-  <div class="carousel-cell-top"><img src="images/photo4.jpg"><div class="slide-text">Post-Disaster Temporary Shelter Design</div></div>  
+  <div class="carousel-cell-top"id="carousel-cell1"><img src="images/photo1.jpg"><div class="slide-text">Post-Disaster Temporary Shelter Design</div></div>
+  <div class="carousel-cell-top"id="carousel-cell2"><img src="images/photo2.jpg"><div class="slide-text">Post-Disaster Temporary Shelter Design</div></div>
+  <div class="carousel-cell-top"id="carousel-cell3"><img src="images/photo3.jpg"><div class="slide-text">Post-Disaster Temporary Shelter Design</div></div>
+  <div class="carousel-cell-top"id="carousel-cell4"><img src="images/photo4.jpg"><div class="slide-text">Post-Disaster Temporary Shelter Design</div></div>
 </div>
-
+</div>
    <!-- slideshow top -->
 
-</div>
+
  <!-- arrow -->
   <a _ngcontent-serverapp-c84="" aria-label="Homepage block section" class="arrow"></a>
   <a _ngcontent-serverapp-c84="" role="button" tabindex="0"
@@ -123,7 +123,7 @@
 
 <!-- JavaScript flickity-->
 <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
-<!-- Slick JS -->
+<script src="https://unpkg.com/flickity-hash@2/hash.js"></script>
 
 
    <!-- slideshow top -->
@@ -141,8 +141,9 @@
       wrapAround: true,
       fade: true,
       imagesLoaded: true,
-      accessibility: false,
-      setGallerySize: false
+      accessibility: true,
+      setGallerySize: false,
+      hash: true,
     });
   
   });

@@ -3,13 +3,16 @@
 .slide-text {
   position: absolute;
   bottom: 55px; 
-text-align: center;
+  left: 0;
+  right: 0;
+  margin: auto;
+  letter-spacing: 0.015em;
+  text-align: center;
   color:#ffffff;
   font-size: 20px;
   font-family: 'Figtree', sans-serif;
   text-shadow: 1px 1px 1px #111111;
-  letter-spacing: 0.015em;
-    z-index: 1;
+  z-index: 1; 
 }
 
 body{
@@ -17,7 +20,6 @@ body{
   background-color:#1A1A1A;
   margin-bottom: 55px;
   justify-content: center;
-
   color: #ffffff;
 
 }
@@ -44,6 +46,7 @@ html, body {
   width: 100%;
   height: 115px;
   background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent);  
+  z-index: 0 ;
 }
   .container-top {
     filter: drop-shadow(0 20px 10px rgba(0,0,0,0.8)); 
@@ -282,9 +285,6 @@ footer .social-links a:hover {
 
   }
 
-
-
-
 /* hide disabled button */
 .slideshow .flickity-button {
   display: none;
@@ -318,8 +318,8 @@ padding-bottom: 2px;
 
   /* white circles */
 .flickity-page-dots .dot {
-  width: 16px;
-  height: 16px;
+  width: 18px;
+  height: 18px;
   opacity: 1;
   background: transparent;
   border: 2px solid white;
