@@ -20,7 +20,7 @@ body{
   background-color:#ffffff;
   margin-bottom: 55px;
   justify-content: center;
-  color: #ffffff;
+  color: #000000;
 
 }
 .container1{
@@ -80,7 +80,7 @@ nav {
 nav ul {
   padding: 0;
   margin: 0;
-  color: #ffffff;
+  color: #000000;
 }
 
 nav li {
@@ -92,7 +92,7 @@ nav li {
 
 nav a {
   text-decoration: none;
-  color: #ffffff;
+  color: #000000;
   transition: all 100ms ease-in-out;
 }
 
@@ -103,13 +103,13 @@ nav li.active a {
 
 .navbar-toggler{
   margin-right: 40px;
-  color:#ffffff;
+  color:#000000;
 }
  .navbar-toggler-icon {
   display: inline-block;
   width: 1em;
   height: 1em;
-  color:#ffffff;
+  color:#000000;
 
 }
  .navbar-toggler-icon:hover {
@@ -193,10 +193,10 @@ font-size: medium;
 ul.list-white {
   list-style-type: none;
  
- text-decoration-color: #ffffff; 
+ text-decoration-color: #000000; 
 }
 ul.list-white li a {
-  color: white; /* Set the color to white */
+  color: rgb(0, 0, 0); /* Set the color to white */
   text-decoration: none; /* Remove the underline */
   font-size: 19px;
 
@@ -224,7 +224,7 @@ p{
 
 footer .email-link {
   text-decoration: none;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   font-size: 18px;
   font-family: 'Figtree', sans-serif;
 
@@ -236,7 +236,7 @@ footer .email-link:hover {
 
 footer .social-links a {
   margin: 0px 5px;
-  color:rgb(241, 244, 244);
+  color:rgb(0, 0, 0);
   border-radius: 20%;
   font-size: 19px;
   transition: all 100ms ease-in-out;
@@ -248,7 +248,7 @@ footer .social-links a:hover {
 .block--large {
   font: normal 25px/40px "Suisse Intl",Helvetica,Arial,sans-serif;
   letter-spacing: 0;
-  color: #ffffff;
+  color: #000000;
   margin-left: 40px;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -454,7 +454,7 @@ padding-bottom: 2px;
   width: 100%; /* Ensures the content stays within the item1's boundary */
 }
 .grid-container > div.item2 {
-  border-left: 2px solid #ffffff;
+  border-left: 2px solid #000000;
   text-align: left;
   padding-left: 20px;
 }
@@ -490,7 +490,7 @@ padding-bottom: 2px;
   top:50px;
   left:17px;
   transform:rotate(-45deg);
-  border-color:#fff
+  border-color:#000000
 }
 .arrow[_ngcontent-serverApp-c84]:before {
   width:2px;
