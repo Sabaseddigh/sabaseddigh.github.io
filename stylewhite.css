@@ -8,7 +8,7 @@
   margin: auto;
   letter-spacing: 0.015em;
   text-align: center;
-  color:#ffffff;
+  color:#000000;
   font-size: 20px;
   font-family: 'Figtree', sans-serif;
   text-shadow: 1px 1px 1px #111111;
@@ -18,10 +18,10 @@
 body{
   font-family: 'Figtree', sans-serif;
   background-color:#ffffff;
-  margin-bottom: 55px;
   justify-content: center;
   color: #000000;
-
+  margin-top: 4rem ;
+padding-top: 40px;
 }
 .container1{
    margin-right: 40px;
@@ -57,12 +57,6 @@ html, body {
   padding-bottom: 1.2rem; 
   padding-left: 2.3rem;
 }
-.navbar:hover {
-  background-color: #11111171 !important; 
-  padding-top: 1.2rem;
-  padding-bottom: 1.2rem;
-  box-shadow: 0 0.1rem 1rem rgba(16, 16, 16, 0.563);
-}
 
 .hide-navbar {
   transform: translateY(-100%);
@@ -80,7 +74,7 @@ nav {
 nav ul {
   padding: 0;
   margin: 0;
-  color: #000000;
+  color: #ffffff;
 }
 
 nav li {
@@ -92,7 +86,7 @@ nav li {
 
 nav a {
   text-decoration: none;
-  color: #000000;
+  color: #ffffff;
   transition: all 100ms ease-in-out;
 }
 
@@ -103,13 +97,13 @@ nav li.active a {
 
 .navbar-toggler{
   margin-right: 40px;
-  color:#000000;
+  color:#ffffff;
 }
  .navbar-toggler-icon {
   display: inline-block;
   width: 1em;
   height: 1em;
-  color:#000000;
+  color:#ffffff;
 
 }
  .navbar-toggler-icon:hover {
@@ -136,6 +130,7 @@ margin: auto; /* Center horizontally */
 
 main {
   min-height: 100vh;
+  margin-top: 4rem ;
 
 }
 
@@ -218,13 +213,13 @@ footer .social-links {
 }
 
 p{
-  color: #5e5e5e;
+  color: #000000;
 }
 
 
 footer .email-link {
   text-decoration: none;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   font-size: 18px;
   font-family: 'Figtree', sans-serif;
 
