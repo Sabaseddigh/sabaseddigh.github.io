@@ -23,15 +23,7 @@ body{
   margin-top: 4rem ;
 padding-top: 40px;
 }
-.container1{
-   margin-right: 40px;
-  margin-left: 40px; 
-    min-height: 100%;
-  display: flex;
-  flex-direction: column;
-  padding-bottom: 20px; /* footer height */
-  text-align: justify;
-}
+
 .container-top{
 margin: 0 auto;
 }
@@ -430,12 +422,25 @@ padding-bottom: 2px;
   margin-bottom: 0px;
 
 }
+.container1{
+  margin-right: 40px;
+ margin-left: 40px; 
+   min-height: 100%;
+ display: flex;
+ flex-direction: column;
+ padding-bottom: 20px; /* footer height */
+ text-align: justify;
+}
+
+
+
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(250px, 4fr));
   grid-auto-rows: minmax(100px, auto);
-  gap: 20px;
+  gap: 20px; /* Adjust the gap between grid items as per your preference */
   padding: 10px;
+
 }
 
 .grid-container > div {
@@ -443,11 +448,19 @@ padding-bottom: 2px;
   padding: 20px 0;
   font-size: 20px;
 }
-
 .item1 {
-  grid-column-start: 1;
-  grid-column-end: 3;
+  display:grid;
+  grid-template-columns:repeat(6, 13.24435%);
+  grid-column-gap:4.10678%;
+  margin-bottom:-42px
+}
+.item1 {
+  grid-column:span 3;
+  margin-bottom:42px
+}
 
+.item2 {
+  grid-column: span 1; /* Let each item span 2 columns */
 
 }
 
