@@ -452,7 +452,7 @@ padding-bottom: 2px;
   display:grid;
   grid-template-columns:repeat(6, 13.24435%);
   grid-column-gap:4.10678%;
-  margin-bottom:-42px
+  margin-bottom:-42px;
 }
 .item1 {
   grid-column:span 3;
@@ -515,3 +515,532 @@ padding-bottom: 2px;
   background:white
 }
 
+
+.main__inner {
+  padding-left:var(--space-left);
+  padding-right:var(--space-right);
+  padding-top:190px;
+  min-height:calc(100vh - 295px)
+}
+.main__inner--no-space {
+  padding-top:0
+}
+.page-top__content {
+  width:74.2378%
+}
+.page-top__title {
+  font:normal 45px/60px "Suisse Intl",Helvetica,Arial,sans-serif;
+  letter-spacing:0
+}
+@media (max-width: 1225px) {
+  .page-top__title {
+    font-size:37px;
+    line-height:48px
+  }
+}
+@media (max-width: 1000px) {
+  .page-top__title {
+    font-size:23px;
+    line-height:31px
+  }
+}
+*+.page-top__title {
+  margin-top:46px
+}
+.page-top__intro {
+  font:normal 30px/42px "Suisse Intl",Helvetica,Arial,sans-serif;
+  letter-spacing:0.01em
+}
+@media (max-width: 1225px) {
+  .page-top__intro {
+    font-size:25px;
+    line-height:35px
+  }
+}
+@media (max-width: 1000px) {
+  .page-top__intro {
+    font-size:20px;
+    line-height:27px
+  }
+}
+.page-top__title+.page-top__intro {
+  margin-top:40px
+}
+.page-top__back:before {
+  content:"←";
+  display:inline-block;
+  padding-right:4px;
+  position:relative;
+  top:-3px
+}
+.page-column+.page-column {
+  margin-top:75px
+}
+.page-top+.page-column {
+  margin-top:45px
+}
+.page-column:last-child.page-column--research {
+  padding-bottom:75px
+}
+.page-research .page-column:last-child {
+  padding-bottom:75px
+}
+.page-column__content {
+  grid-column:span 6
+}
+.page-filter {
+  margin-bottom:35px
+}
+*+.page-filter {
+  margin-top:40px
+}
+.page-top+.page-filter {
+  margin-top:60px
+}
+.featured-news+.page-filter {
+  margin-top:60px
+}
+.page-filter__border {
+  display:inline-block;
+  width:30px;
+  border-bottom:2px solid #000;
+  position:relative;
+  top:-6px
+}
+.page-filter__content {
+  display:inline-block;
+  position:relative
+}
+.no-touch .page-filter__content:hover .page-filter__button:after {
+  width:100%
+}
+.page-filter__button {
+  cursor:pointer;
+  -moz-user-select:-moz-none;
+  -ms-user-select:none;
+  -webkit-user-select:none;
+  user-select:none;
+  position:relative
+}
+.page-filter__button:after {
+  -moz-transition:width 250ms;
+  -o-transition:width 250ms;
+  -webkit-transition:width 250ms;
+  transition:width 250ms;
+  content:"";
+  border-bottom:2px solid #000;
+  position:absolute;
+  overflow:hidden;
+  bottom:-7px;
+  left:0;
+  width:0
+}
+.page-filter__button-arrow {
+  background-image:url("../elements/icon_arrow_down.svg");
+  background-repeat:no-repeat;
+  background-size:contain;
+  display:inline-block;
+  width:0.727em;
+  height:0.727em;
+  position:relative;
+  right:1px;
+  top:1px
+}
+.page-filter__placeholder {
+  -moz-transition:height 250ms;
+  -o-transition:height 250ms;
+  -webkit-transition:height 250ms;
+  transition:height 250ms;
+  height:0
+}
+.page-filter__wrap {
+  overflow:hidden;
+  position:absolute;
+  top:29px;
+  height:0;
+  white-space:nowrap
+}
+.page-filter__items {
+  -moz-transition:opacity 250ms,visibility 250ms;
+  -o-transition:opacity 250ms,visibility 250ms;
+  -webkit-transition:opacity 250ms,visibility 250ms;
+  transition:opacity 250ms,visibility 250ms;
+  opacity:0;
+  visibility:hidden;
+  padding-top:26px
+}
+.no-touch .page-filter__item a:hover {
+  color:#7f7f7f
+}
+.page-filter__item+.page-filter__item {
+  margin-top:10px
+}
+.page-filter__content--open .page-filter__wrap {
+  height:auto
+}
+.page-filter__content--open .page-filter__button:after {
+  width:100%
+}
+.page-filter__content--visibile .page-filter__items {
+  opacity:1;
+  visibility:visible
+}
+
+
+.preview-projects {
+  display:grid;
+  grid-template-columns:repeat(6, 13.24435%);
+  grid-column-gap:4.10678%;
+  margin-bottom:-42px
+}
+.preview-project {
+  grid-column:span 3;
+  margin-bottom:42px
+}
+.no-touch .preview-project:hover .preview-project__image {
+  opacity:0.5
+}
+.preview-project__image:after {
+  content:"";
+  display:block;
+  padding-bottom:66.738%
+}
+.preview-project__title {
+  font:normal 30px/42px "Suisse Intl",Helvetica,Arial,sans-serif;
+  letter-spacing:0.01em;
+  display:block;
+  margin-top:15px
+}
+@media (max-width: 1225px) {
+  .preview-project__title {
+    font-size:25px;
+    line-height:35px
+  }
+}
+@media (max-width: 1000px) {
+  .preview-project__title {
+    font-size:20px;
+    line-height:27px
+  }
+}
+.page-column__side {
+  grid-column:span 2;
+  padding-left:13.42282%;
+  position:relative
+}
+.side-item__image {
+  display:block;
+  position:relative
+}
+.side-item__image+.side-item__text {
+  padding-top:30px
+}
+.side-item__title {
+  font:normal 22px/31px "Suisse Intl",Helvetica,Arial,sans-serif;
+  letter-spacing:0.01em
+}
+@media (max-width: 1225px) {
+  .side-item__title {
+    font-size:18px;
+    line-height:26px
+  }
+}
+@media (max-width: 1000px) {
+  .side-item__title {
+    font-size:14px;
+    line-height:21px
+  }
+}
+.side-item__text {
+  font:normal 16px/23px "Suisse Intl",Helvetica,Arial,sans-serif;
+  letter-spacing:0.015em
+}
+@media (max-width: 1225px) {
+  .side-item__text {
+    font-size:13px;
+    line-height:18px
+  }
+}
+@media (max-width: 1000px) {
+  .side-item__text {
+    font-size:12px;
+    line-height:19px
+  }
+}
+.side-item__title+.side-item__text {
+  margin-top:23px
+}
+.side-item__text p+p {
+  margin-top:23px
+}
+.side-item--bottom {
+  position:absolute;
+  bottom:0
+}
+.side-item--auto-position,
+.side-item--carousel {
+  opacity:0;
+  position:absolute;
+  top:0;
+  left:13.42282%;
+  width:calc(100% - 13.42282%);
+  visibility:hidden
+}
+.no-touch .side-item--carousel:hover {
+  color:#7f7f7f
+}
+.page-column__side--hovered .side-item--active {
+  opacity:0;
+  visibility:hidden
+}
+.page-column__side--hovered .side-item--hover {
+  opacity:1;
+  visibility:visible
+}
+.side-item--active-forced,
+.side-item--active {
+  opacity:1;
+  visibility:visible
+}
+.side-item--hover {
+  color:#7f7f7f
+}
+.loadmore {
+  font:normal 45px/60px "Suisse Intl",Helvetica,Arial,sans-serif;
+  letter-spacing:0;
+  margin-top:148px
+}
+@media (max-width: 1225px) {
+  .loadmore {
+    font-size:37px;
+    line-height:48px
+  }
+}
+@media (max-width: 1000px) {
+  .loadmore {
+    font-size:23px;
+    line-height:31px
+  }
+}
+.no-touch .loadmore a:hover {
+  color:#7f7f7f
+}
+.preview-researches+.loadmore {
+  margin-top:138px
+}
+.page-research .main {
+  background-color:#FDF0ED
+}
+.preview-researches {
+  display:grid;
+  grid-template-columns:repeat(6, 13.24435%);
+  grid-column-gap:4.10678%
+}
+.preview-research-group {
+  grid-column:span 6;
+  display:grid;
+  grid-template-columns:repeat(6, 13.24435%);
+  grid-column-gap:4.10678%
+}
+.preview-research-group+.preview-research-group {
+  margin-top:4.10678%
+}
+.preview-research-group__vertical {
+  grid-column:span 3
+}
+.preview-research-group__vertical .preview-research:first-child {
+  margin-bottom:8.56531%
+}
+.preview-research {
+  grid-column:span 3
+}
+.no-touch .preview-research:hover .preview-research__image img {
+  -webkit-filter:grayscale(0);
+  filter:grayscale(0);
+  mix-blend-mode:normal
+}
+.preview-research__image {
+  background-color:#FDF0ED
+}
+.preview-research__image img {
+  -webkit-filter:grayscale(1);
+  filter:grayscale(1);
+  mix-blend-mode:multiply
+}
+.preview-research--landscape .preview-research__image:after {
+  content:"";
+  display:block;
+  padding-bottom:66.523%
+}
+.preview-research--portrait .preview-research__image:after {
+  content:"";
+  display:block;
+  padding-bottom:142.0600%
+}
+.preview-relatednews {
+  grid-column:span 3
+}
+.no-touch .preview-relatednews:hover .preview-relatednews__image {
+  -webkit-filter:grayscale(0);
+  filter:grayscale(0);
+  mix-blend-mode:normal
+}
+.preview-relatednews__image {
+  -webkit-filter:grayscale(1);
+  filter:grayscale(1);
+  background-color:#FDF0ED;
+  mix-blend-mode:multiply
+}
+.preview-relatednews--landscape .preview-relatednews__image:after {
+  content:"";
+  display:block;
+  padding-bottom:66.523%
+}
+.preview-relatednews--portrait .preview-relatednews__image:after {
+  content:"";
+  display:block;
+  padding-bottom:142.0600%
+}
+.block-people {
+  margin-bottom:52px
+}
+*+.block-people {
+  margin-top:52px
+}
+.people-list {
+  display:grid;
+  -webkit-grid-column-gap:3.04878%;
+  grid-column-gap:2.6255%;
+  grid-template-columns:repeat(5, 1fr);
+  margin-bottom:-40px
+}
+.person {
+  margin-bottom:40px
+}
+.no-touch .person:hover .person__link:after {
+  width:100%
+}
+.person__image:after {
+  content:"";
+  padding-bottom:100%;
+  display:block
+}
+.person__name {
+  font:normal 22px/31px "Suisse Intl",Helvetica,Arial,sans-serif;
+  letter-spacing:0.01em;
+  margin-top:15px
+}
+@media (max-width: 1225px) {
+  .person__name {
+    font-size:18px;
+    line-height:26px
+  }
+}
+@media (max-width: 1000px) {
+  .person__name {
+    font-size:14px;
+    line-height:21px
+  }
+}
+.person__link {
+  font:normal 22px/31px "Suisse Intl",Helvetica,Arial,sans-serif;
+  letter-spacing:0.01em;
+  position:relative;
+  display:inline-block;
+  margin-top:5px
+}
+@media (max-width: 1225px) {
+  .person__link {
+    font-size:18px;
+    line-height:26px
+  }
+}
+@media (max-width: 1000px) {
+  .person__link {
+    font-size:14px;
+    line-height:21px
+  }
+}
+.person__link:after {
+  -moz-transition:width 250ms;
+  -o-transition:width 250ms;
+  -webkit-transition:width 250ms;
+  transition:width 250ms;
+  content:"";
+  border-bottom:2px solid #000;
+  position:absolute;
+  overflow:hidden;
+  bottom:-2px;
+  left:0;
+  width:0
+}
+.block-person {
+  margin-top:40px;
+  margin-bottom:164px
+}
+.block-person__image-wrap {
+  grid-column:span 3
+}
+.block-person__image:after {
+  content:"";
+  padding-bottom:100%;
+  display:block
+}
+.block-person__content {
+  grid-column:span 5
+}
+.block+.block {
+  margin-top:50px
+}
+.block--in-column {
+  width:82.64887%
+}
+.block--intro {
+  font:normal 30px/42px "Suisse Intl",Helvetica,Arial,sans-serif;
+  letter-spacing:0.01em
+}
+@media (max-width: 1225px) {
+  .block--intro {
+    font-size:25px;
+    line-height:35px
+  }
+}
+@media (max-width: 1000px) {
+  .block--intro {
+    font-size:20px;
+    line-height:27px
+  }
+}
+.block--text p+p {
+  margin-top:1.409em
+}
+.block--text a {
+  text-decoration:underline
+}
+.no-touch .block--text a:hover {
+  opacity:.5
+}
+.block--images-2up {
+  display:grid;
+  grid-template-columns:repeat(6, 13.24435%);
+  grid-column-gap:4.10678%
+}
+.block--image-2up {
+  grid-column:span 3
+}
+.block--large {
+  font:normal 45px/60px "Suisse Intl",Helvetica,Arial,sans-serif;
+  letter-spacing:0
+}
+@media (max-width: 1225px) {
+  .block--large {
+    font-size:37px;
+    line-height:48px
+  }
+}
+@media (max-width: 1000px) {
+  .block--large {
+    font-size:23px;
+    line-height:31px
+  }
+}

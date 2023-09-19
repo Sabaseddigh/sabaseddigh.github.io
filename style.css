@@ -96,8 +96,7 @@ nav a {
   transition: all 100ms ease-in-out;
 }
 
-nav a:hover,
-nav li.active a {
+nav a:hover {
   color:paleturquoise;
 }
 
@@ -180,7 +179,9 @@ footer {
   float: right;
   margin-top: 10px;
 }
-
+.back-to-top:hover {
+  color: paleturquoise;
+  }
 
 .copyright{
 display: flex;

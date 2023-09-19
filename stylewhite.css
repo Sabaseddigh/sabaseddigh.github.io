@@ -181,8 +181,9 @@ footer {
   float: right;
   margin-top: 10px;
 }
-
-
+.back-to-top:hover {
+color: paleturquoise;
+}
 .copyright{
 display: flex;
 float:right;
