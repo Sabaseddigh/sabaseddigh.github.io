@@ -1712,10 +1712,10 @@ em {
     margin-top:21px
   }
   .main__inner {
-    padding-top:94px
+    padding-top: 0px;
   }
   .main__inner--no-space {
-    padding-top:74px
+    padding-top:40px
   }
   .header--white:not(.header--show-menu):not(.header--ts-active) .logo__item-black {
     display:block
