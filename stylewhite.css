@@ -114,7 +114,9 @@ nav li.active a {
  .navbar-toggler-icon:hover {
   color: paleturquoise;
 }
-
+.offcanvas-header{
+  margin-left: 15px;
+  }
 .social-links a {
   margin: 0 20px;
   padding: 10px 14px;
@@ -222,7 +224,10 @@ footer .social-links {
 p{
   color: #000000;
 }
-
+.nav-footers{
+  position: absolute;
+  margin-bottom: 100px;
+}
 
 footer .email-link {
   text-decoration: none;
