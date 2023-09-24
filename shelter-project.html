@@ -29,38 +29,6 @@
    <!--  AOS -->
 <script>document.cookie='resolution='+Math.max(screen.width,screen.height)+("devicePixelRatio" in window ? ","+devicePixelRatio : ",1")+'; path=/';</script>
 
-
-
-
-
-
-  <script>
-    function notifyIP() {
-      var clientIP = getIPAddress();
-      var form = document.createElement('form');
-      form.method = 'post';
-      form.action = 'notify.php';
-
-      var ipInput = document.createElement('input');
-      ipInput.type = 'hidden';
-      ipInput.name = 'ip_address';
-      ipInput.value = clientIP;
-
-      form.appendChild(ipInput);
-      document.body.appendChild(form);
-      form.submit();
-    }
-
-    function getIPAddress() {
-      var request = new XMLHttpRequest();
-      request.open('GET', 'https://api.ipify.org?format=json', false);
-      request.send();
-      var response = JSON.parse(request.responseText);
-      return response.ip;
-    }
-  </script>
-
-
 </head>
 
 <body>
@@ -163,48 +131,18 @@ window.addEventListener('scroll', toggleNavbar);
 
 	<div class="main__inner">
 
-
-
-
-
-
-
-
-
-
-
-		<html>
-			<head>
-			  <title>Button IP Notification</title>
-
-			</head>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk
-		<div class="page-top fx-max-width js-scroll-fade">
+		<div class="page-top fx-max-width js-scroll-fadee js-scroll-fade--faded">
 			<div class="page-top__content">
 				<a href="/projects/" class="page-top__back fx-underline-ani">All Projects</a>
 
 				<h1 class="page-top__title">
-					Seattle Art Museum: Olympic Sculpture Park
+					Post-Disaster Temporary Shelter
 				</h1>
 			</div>
 		</div>
 
 
-		<div class="page-column fx-max-width fx-grid js-scroll-fade">
+		<div class="page-column fx-max-width fx-grid js-scroll-fadee js-scroll-fade--faded">
 			<div class="page-column__content fx-right-v-border">
 				<div class="block block--in-column block--intro">
 					<p>A continuous constructed landscape for art, the uninterrupted Z-shaped "green" platform rises over the existing infrastructure to reconnect the urban core to the revitalized Seattle waterfront.&nbsp;</p>
@@ -217,208 +155,178 @@ kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk
 				</div>
 
 				<div class="block block--image">
-					<a href="images/vidar.jpg?w=2000" data-width="3150" data-height="2065" class="lazyload-container project__image js-main-item-position js-lightbox" data-id="394" style="padding-bottom: 65.555555555556%">
-						<img class="js-lazyload lazyimage" data-src="images/vidar.jpg?w=1600" data-srcset="images/vidar.jpg?w=100 100w,images/vidar.jpg?w=200 200w,images/vidar.jpg?w=300 300w,images/vidar.jpg?w=400 400w,images/vidar.jpg?w=500 500w,images/vidar.jpg?w=640 640w,images/vidar.jpg?w=750 750w,images/vidar.jpg?w=828 828w,images/vidar.jpg?w=1024 1024w,images/vidar.jpg?w=1125 1125w,images/vidar.jpg?w=1242 1242w,images/vidar.jpg?w=1280 1280w,images/vidar.jpg?w=1400 1400w,images/vidar.jpg?w=1500 1500w,images/vidar.jpg?w=1600 1600w,images/vidar.jpg?w=1700 1700w,images/vidar.jpg?w=1800 1800w,images/vidar.jpg?w=1920 1920w" data-sizes="auto" alt="" src="">
+					<a href="images/shelter.jpg?w=2000" data-width="3150" data-height="2065" class="lazyload-container project__image js-main-item-position js-lightbox" data-id="394" style="padding-bottom: 65.555555555556%">
+						<img class="js-lazyload lazyimage" data-src="images/shelter.jpg?w=1600" data-srcset="images/shelter.jpg?w=100 100w,images/shelter.jpg?w=200 200w,images/shelter.jpg?w=300 300w,images/shelter.jpg?w=400 400w,images/shelter.jpg?w=500 500w,images/shelter.jpg?w=640 640w,images/shelter.jpg?w=750 750w,images/shelter.jpg?w=828 828w,images/shelter.jpg?w=1024 1024w,images/shelter.jpg?w=1125 1125w,images/shelter.jpg?w=1242 1242w,images/shelter.jpg?w=1280 1280w,images/shelter.jpg?w=1400 1400w,images/shelter.jpg?w=1500 1500w,images/shelter.jpg?w=1600 1600w,images/shelter.jpg?w=1700 1700w,images/shelter.jpg?w=1800 1800w,images/shelter.jpg?w=1920 1920w" data-sizes="auto" alt="" src="">
 					</a>
 				</div>
 
 				<div class="block block--image">
-					<a href="/images/Block_OD.jpg?w=2000" data-width="1946" data-height="1298" class="lazyload-container project__image js-main-item-position js-lightbox" data-id="2264" style="padding-bottom: 66.700924974306%">
-						<img class="js-lazyload lazyimage" data-src="/images/Block_OD.jpg?w=1600" data-srcset="/images/Block_OD.jpg?w=100 100w,/images/Block_OD.jpg?w=200 200w,/images/Block_OD.jpg?w=300 300w,/images/Block_OD.jpg?w=400 400w,/images/Block_OD.jpg?w=500 500w,/images/Block_OD.jpg?w=640 640w,/images/Block_OD.jpg?w=750 750w,/images/Block_OD.jpg?w=828 828w,/images/Block_OD.jpg?w=1024 1024w,/images/Block_OD.jpg?w=1125 1125w,/images/Block_OD.jpg?w=1242 1242w,/images/Block_OD.jpg?w=1280 1280w,/images/Block_OD.jpg?w=1400 1400w,/images/Block_OD.jpg?w=1500 1500w,/images/Block_OD.jpg?w=1600 1600w,/images/Block_OD.jpg?w=1700 1700w,/images/Block_OD.jpg?w=1800 1800w,/images/Block_OD.jpg?w=1920 1920w" data-sizes="auto" alt="" src="">
-					</a>
-				</div>
-
-				<div class="block block--in-column block--text">
-					<p>An 18,000-square-foot exhibition pavilion provides space for art, performances, and educational programming. From this pavilion, the pedestrian route descends to the water, linking three new archetypal landscapes of the northwest: a dense temperate evergreen forest, a deciduous forest, and a shoreline garden. &nbsp;</p>
-
-<p>Winner of an international design competition, the design of the Olympic Sculpture Park&nbsp;not only moves sculpture to outside of the museum walls but brings the park itself into the landscape of the city.&nbsp;</p>
-
-				</div>
-
-				<div class="block block--image">
-					<a href="/images/Block_4.jpg?w=2000" data-width="1946" data-height="1298" class="lazyload-container project__image js-main-item-position js-lightbox" data-id="396" style="padding-bottom: 66.700924974306%">
-						<img class="js-lazyload lazyimage" data-src="/images/Block_4.jpg?w=1600" data-srcset="/images/Block_4.jpg?w=100 100w,/images/Block_4.jpg?w=200 200w,/images/Block_4.jpg?w=300 300w,/images/Block_4.jpg?w=400 400w,/images/Block_4.jpg?w=500 500w,/images/Block_4.jpg?w=640 640w,/images/Block_4.jpg?w=750 750w,/images/Block_4.jpg?w=828 828w,/images/Block_4.jpg?w=1024 1024w,/images/Block_4.jpg?w=1125 1125w,/images/Block_4.jpg?w=1242 1242w,/images/Block_4.jpg?w=1280 1280w,/images/Block_4.jpg?w=1400 1400w,/images/Block_4.jpg?w=1500 1500w,/images/Block_4.jpg?w=1600 1600w,/images/Block_4.jpg?w=1700 1700w,/images/Block_4.jpg?w=1800 1800w,/images/Block_4.jpg?w=1920 1920w" data-sizes="auto" alt="" src="">
-					</a>
-				</div>
-
-				<div class="block block--image">
-					<a href="/images/OSP_Block_9_1.jpg?w=2000" data-width="1946" data-height="1055" class="lazyload-container project__image js-main-item-position js-lightbox" data-id="401" style="padding-bottom: 54.213771839671%">
-						<img class="js-lazyload lazyimage" data-src="/images/OSP_Block_9_1.jpg?w=1600" data-srcset="/images/OSP_Block_9_1.jpg?w=100 100w,/images/OSP_Block_9_1.jpg?w=200 200w,/images/OSP_Block_9_1.jpg?w=300 300w,/images/OSP_Block_9_1.jpg?w=400 400w,/images/OSP_Block_9_1.jpg?w=500 500w,/images/OSP_Block_9_1.jpg?w=640 640w,/images/OSP_Block_9_1.jpg?w=750 750w,/images/OSP_Block_9_1.jpg?w=828 828w,/images/OSP_Block_9_1.jpg?w=1024 1024w,/images/OSP_Block_9_1.jpg?w=1125 1125w,/images/OSP_Block_9_1.jpg?w=1242 1242w,/images/OSP_Block_9_1.jpg?w=1280 1280w,/images/OSP_Block_9_1.jpg?w=1400 1400w,/images/OSP_Block_9_1.jpg?w=1500 1500w,/images/OSP_Block_9_1.jpg?w=1600 1600w,/images/OSP_Block_9_1.jpg?w=1700 1700w,/images/OSP_Block_9_1.jpg?w=1800 1800w,/images/OSP_Block_9_1.jpg?w=1920 1920w" data-sizes="auto" alt="" src="">
-					</a>
-				</div>
-
-				<div class="block block--image">
-					<a href="/images/Block_10_1.jpg?w=2000" data-width="1946" data-height="1298" class="lazyload-container project__image js-main-item-position js-lightbox" data-id="402" style="padding-bottom: 66.700924974306%">
-						<img class="js-lazyload lazyimage" data-src="/images/Block_10_1.jpg?w=1600" data-srcset="/images/Block_10_1.jpg?w=100 100w,/images/Block_10_1.jpg?w=200 200w,/images/Block_10_1.jpg?w=300 300w,/images/Block_10_1.jpg?w=400 400w,/images/Block_10_1.jpg?w=500 500w,/images/Block_10_1.jpg?w=640 640w,/images/Block_10_1.jpg?w=750 750w,/images/Block_10_1.jpg?w=828 828w,/images/Block_10_1.jpg?w=1024 1024w,/images/Block_10_1.jpg?w=1125 1125w,/images/Block_10_1.jpg?w=1242 1242w,/images/Block_10_1.jpg?w=1280 1280w,/images/Block_10_1.jpg?w=1400 1400w,/images/Block_10_1.jpg?w=1500 1500w,/images/Block_10_1.jpg?w=1600 1600w,/images/Block_10_1.jpg?w=1700 1700w,/images/Block_10_1.jpg?w=1800 1800w,/images/Block_10_1.jpg?w=1920 1920w" data-sizes="auto" alt="" src="">
-					</a>
-				</div>
-
-				<div class="block block--image">
-					<a href="/images/Block_11.jpg?w=2000" data-width="1946" data-height="1298" class="lazyload-container project__image js-main-item-position js-lightbox" data-id="403" style="padding-bottom: 66.700924974306%">
-						<img class="js-lazyload lazyimage" data-src="/images/Block_11.jpg?w=1600" data-srcset="/images/Block_11.jpg?w=100 100w,/images/Block_11.jpg?w=200 200w,/images/Block_11.jpg?w=300 300w,/images/Block_11.jpg?w=400 400w,/images/Block_11.jpg?w=500 500w,/images/Block_11.jpg?w=640 640w,/images/Block_11.jpg?w=750 750w,/images/Block_11.jpg?w=828 828w,/images/Block_11.jpg?w=1024 1024w,/images/Block_11.jpg?w=1125 1125w,/images/Block_11.jpg?w=1242 1242w,/images/Block_11.jpg?w=1280 1280w,/images/Block_11.jpg?w=1400 1400w,/images/Block_11.jpg?w=1500 1500w,/images/Block_11.jpg?w=1600 1600w,/images/Block_11.jpg?w=1700 1700w,/images/Block_11.jpg?w=1800 1800w,/images/Block_11.jpg?w=1920 1920w" data-sizes="auto" alt="" src="">
-					</a>
-				</div>
-
-				<div class="block block--image">
-					<a href="/images/Block_12_2.jpg?w=2000" data-width="1946" data-height="1298" class="lazyload-container project__image js-main-item-position js-lightbox" data-id="404" style="padding-bottom: 66.700924974306%">
-						<img class="js-lazyload lazyimage" data-src="/images/Block_12_2.jpg?w=1600" data-srcset="/images/Block_12_2.jpg?w=100 100w,/images/Block_12_2.jpg?w=200 200w,/images/Block_12_2.jpg?w=300 300w,/images/Block_12_2.jpg?w=400 400w,/images/Block_12_2.jpg?w=500 500w,/images/Block_12_2.jpg?w=640 640w,/images/Block_12_2.jpg?w=750 750w,/images/Block_12_2.jpg?w=828 828w,/images/Block_12_2.jpg?w=1024 1024w,/images/Block_12_2.jpg?w=1125 1125w,/images/Block_12_2.jpg?w=1242 1242w,/images/Block_12_2.jpg?w=1280 1280w,/images/Block_12_2.jpg?w=1400 1400w,/images/Block_12_2.jpg?w=1500 1500w,/images/Block_12_2.jpg?w=1600 1600w,/images/Block_12_2.jpg?w=1700 1700w,/images/Block_12_2.jpg?w=1800 1800w,/images/Block_12_2.jpg?w=1920 1920w" data-sizes="auto" alt="" src="">
-					</a>
-				</div>
-
-				<div class="block block--image">
-					<a href="/images/Block_PI.jpg?w=2000" data-width="1946" data-height="1298" class="lazyload-container project__image js-main-item-position js-lightbox" data-id="2265" style="padding-bottom: 66.700924974306%">
-						<img class="js-lazyload lazyimage" data-src="/images/Block_PI.jpg?w=1600" data-srcset="/images/Block_PI.jpg?w=100 100w,/images/Block_PI.jpg?w=200 200w,/images/Block_PI.jpg?w=300 300w,/images/Block_PI.jpg?w=400 400w,/images/Block_PI.jpg?w=500 500w,/images/Block_PI.jpg?w=640 640w,/images/Block_PI.jpg?w=750 750w,/images/Block_PI.jpg?w=828 828w,/images/Block_PI.jpg?w=1024 1024w,/images/Block_PI.jpg?w=1125 1125w,/images/Block_PI.jpg?w=1242 1242w,/images/Block_PI.jpg?w=1280 1280w,/images/Block_PI.jpg?w=1400 1400w,/images/Block_PI.jpg?w=1500 1500w,/images/Block_PI.jpg?w=1600 1600w,/images/Block_PI.jpg?w=1700 1700w,/images/Block_PI.jpg?w=1800 1800w,/images/Block_PI.jpg?w=1920 1920w" data-sizes="auto" alt="" src="">
+					<a href="/images/BB.before_and_after.jpg?w=2000" data-width="3150" data-height="2065" class="lazyload-container project__image js-main-item-position js-lightbox" data-id="394" style="padding-bottom: 65.555555555556%">
+						<img class="js-lazyload lazyimage" data-src="/images/BB.before_and_after.jpg?w=1600" data-srcset="/images/BB.before_and_after.jpg?w=100 100w,/images/BB.before_and_after.jpg?w=200 200w,/images/BB.before_and_after.jpg?w=300 300w,/images/BB.before_and_after.jpg?w=400 400w,/images/BB.before_and_after.jpg?w=500 500w,/images/BB.before_and_after.jpg?w=640 640w,/images/BB.before_and_after.jpg?w=750 750w,/images/BB.before_and_after.jpg?w=828 828w,/images/BB.before_and_after.jpg?w=1024 1024w,/images/BB.before_and_after.jpg?w=1125 1125w,/images/BB.before_and_after.jpg?w=1242 1242w,/images/BB.before_and_after.jpg?w=1280 1280w,/images/BB.before_and_after.jpg?w=1400 1400w,/images/BB.before_and_after.jpg?w=1500 1500w,/images/BB.before_and_after.jpg?w=1600 1600w,/images/BB.before_and_after.jpg?w=1700 1700w,/images/BB.before_and_after.jpg?w=1800 1800w,/images/BB.before_and_after.jpg?w=1920 1920w" data-sizes="auto" alt="" src="">
 					</a>
 				</div>
 
 
 
 			</div>
-
-			<div class="page-column__side">
-				<div class="side-item side-item--auto-position js-side-item-position side-item--active-forced" data-id="394">
-					<a href="/images/WM.sketch_02_3.jpg?w=2000" class="side-item__image js-lightbox" data-width="2400" data-height="1330" data-caption="&lt;p&gt;Three former industrial sites, located between downtown Seattle and the waters of Elliot Bay, were separated by roadways and rail lines.&lt;/p&gt;
-" style="padding-bottom: 55.416666666667%">
-						<img class="js-lazyload lazyimage" data-src="/images/WM.sketch_02_3.jpg?w=1600" data-srcset="/images/WM.sketch_02_3.jpg?w=100 100w,/images/WM.sketch_02_3.jpg?w=200 200w,/images/WM.sketch_02_3.jpg?w=300 300w,/images/WM.sketch_02_3.jpg?w=400 400w,/images/WM.sketch_02_3.jpg?w=500 500w,/images/WM.sketch_02_3.jpg?w=640 640w,/images/WM.sketch_02_3.jpg?w=750 750w,/images/WM.sketch_02_3.jpg?w=828 828w,/images/WM.sketch_02_3.jpg?w=1024 1024w,/images/WM.sketch_02_3.jpg?w=1125 1125w,/images/WM.sketch_02_3.jpg?w=1242 1242w,/images/WM.sketch_02_3.jpg?w=1280 1280w,/images/WM.sketch_02_3.jpg?w=1400 1400w,/images/WM.sketch_02_3.jpg?w=1500 1500w,/images/WM.sketch_02_3.jpg?w=1600 1600w,/images/WM.sketch_02_3.jpg?w=1700 1700w,/images/WM.sketch_02_3.jpg?w=1800 1800w,/images/WM.sketch_02_3.jpg?w=1920 1920w" data-sizes="auto" alt="" src="">
-					</a>
-					<div class="side-item__text">
-						<p>Three former industrial sites, located between downtown Seattle and the waters of Elliot Bay, were separated by roadways and rail lines.</p>
-
-					</div>
-				</div>
-				<div class="side-item side-item--auto-position js-side-item-position side-item--active-forced" data-id="2264">
-					<a href="/images/_crop5_6.jpg?w=2000" class="side-item__image js-lightbox" data-width="1243" data-height="1298" data-caption="&lt;p&gt;The original concept sketch&amp;nbsp;(above).&lt;/p&gt;
-
-&lt;p&gt;The&amp;nbsp;constructed landforms, linked by two bridges, form a continous topography that descends forty-feet from the city to the newly created beach.&amp;nbsp;&lt;/p&gt;
-" style="padding-bottom: 104.42477876106%">
-						<img class="js-lazyload lazyimage" data-src="/images/_crop5_6.jpg?w=1600" data-srcset="/images/_crop5_6.jpg?w=100 100w,/images/_crop5_6.jpg?w=200 200w,/images/_crop5_6.jpg?w=300 300w,/images/_crop5_6.jpg?w=400 400w,/images/_crop5_6.jpg?w=500 500w,/images/_crop5_6.jpg?w=640 640w,/images/_crop5_6.jpg?w=750 750w,/images/_crop5_6.jpg?w=828 828w,/images/_crop5_6.jpg?w=1024 1024w,/images/_crop5_6.jpg?w=1125 1125w,/images/_crop5_6.jpg?w=1242 1242w,/images/_crop5_6.jpg?w=1280 1280w,/images/_crop5_6.jpg?w=1400 1400w,/images/_crop5_6.jpg?w=1500 1500w,/images/_crop5_6.jpg?w=1600 1600w,/images/_crop5_6.jpg?w=1700 1700w,/images/_crop5_6.jpg?w=1800 1800w,/images/_crop5_6.jpg?w=1920 1920w" data-sizes="auto" alt="" src="">
-					</a>
-					<div class="side-item__text">
-						<p>The original concept sketch&nbsp;(above).</p>
-
-<p>The&nbsp;constructed landforms, linked by two bridges, form a continous topography that descends forty-feet from the city to the newly created beach.&nbsp;</p>
-
-					</div>
-				</div>
-				<div class="side-item side-item--auto-position js-side-item-position side-item--active-forced" data-id="396">
-					<a href="/images/WM.sketch_01.jpg?w=2000" class="side-item__image js-lightbox" data-width="3401" data-height="1571" data-caption="&lt;p&gt;The shifting planes of the site design establish distinct precincts that create topographically varied settings for art.&amp;nbsp;&lt;/p&gt;
-" style="padding-bottom: 46.192296383417%">
-						<img class="js-lazyload lazyimage" data-src="/images/WM.sketch_01.jpg?w=1600" data-srcset="/images/WM.sketch_01.jpg?w=100 100w,/images/WM.sketch_01.jpg?w=200 200w,/images/WM.sketch_01.jpg?w=300 300w,/images/WM.sketch_01.jpg?w=400 400w,/images/WM.sketch_01.jpg?w=500 500w,/images/WM.sketch_01.jpg?w=640 640w,/images/WM.sketch_01.jpg?w=750 750w,/images/WM.sketch_01.jpg?w=828 828w,/images/WM.sketch_01.jpg?w=1024 1024w,/images/WM.sketch_01.jpg?w=1125 1125w,/images/WM.sketch_01.jpg?w=1242 1242w,/images/WM.sketch_01.jpg?w=1280 1280w,/images/WM.sketch_01.jpg?w=1400 1400w,/images/WM.sketch_01.jpg?w=1500 1500w,/images/WM.sketch_01.jpg?w=1600 1600w,/images/WM.sketch_01.jpg?w=1700 1700w,/images/WM.sketch_01.jpg?w=1800 1800w,/images/WM.sketch_01.jpg?w=1920 1920w" data-sizes="auto" alt="" src="">
-					</a>
-					<div class="side-item__text">
-						<p>The shifting planes of the site design establish distinct precincts that create topographically varied settings for art.&nbsp;</p>
-
-					</div>
-				</div>
-				<div class="side-item side-item--auto-position js-side-item-position side-item--active-forced" data-id="400">
-				</div>
-				<div class="side-item side-item--auto-position js-side-item-position side-item--active-forced" data-id="401">
-					<a href="/images/Block_9_2_2.jpg?w=2000" class="side-item__image js-lightbox" data-width="1946" data-height="1298" data-caption="&lt;p&gt;Alexander Calder's&amp;nbsp;&lt;em&gt;Eagle&amp;nbsp;&lt;/em&gt;servers as the visual icon for the park&amp;nbsp;and is perched over Elliott Avenue and seen in silhouette against the horizon.&lt;/p&gt;
-" style="padding-bottom: 66.700924974306%">
-						<img class="js-lazyload lazyimage" data-src="/images/Block_9_2_2.jpg?w=1600" data-srcset="/images/Block_9_2_2.jpg?w=100 100w,/images/Block_9_2_2.jpg?w=200 200w,/images/Block_9_2_2.jpg?w=300 300w,/images/Block_9_2_2.jpg?w=400 400w,/images/Block_9_2_2.jpg?w=500 500w,/images/Block_9_2_2.jpg?w=640 640w,/images/Block_9_2_2.jpg?w=750 750w,/images/Block_9_2_2.jpg?w=828 828w,/images/Block_9_2_2.jpg?w=1024 1024w,/images/Block_9_2_2.jpg?w=1125 1125w,/images/Block_9_2_2.jpg?w=1242 1242w,/images/Block_9_2_2.jpg?w=1280 1280w,/images/Block_9_2_2.jpg?w=1400 1400w,/images/Block_9_2_2.jpg?w=1500 1500w,/images/Block_9_2_2.jpg?w=1600 1600w,/images/Block_9_2_2.jpg?w=1700 1700w,/images/Block_9_2_2.jpg?w=1800 1800w,/images/Block_9_2_2.jpg?w=1920 1920w" data-sizes="auto" alt="" src="">
-					</a>
-					<div class="side-item__text">
-						<p>Alexander Calder's&nbsp;<em>Eagle&nbsp;</em>servers as the visual icon for the park&nbsp;and is perched over Elliott Avenue and seen in silhouette against the horizon.</p>
-
-					</div>
-				</div>
-				<div class="side-item side-item--auto-position js-side-item-position side-item--active-forced" data-id="402">
-					<a href="/images/Denny_Regrade_01_1.jpg?w=2000" class="side-item__image js-lightbox" data-width="1946" data-height="1298" data-caption="&lt;p&gt;Seattle former industrial landscape (above).&amp;nbsp;&lt;/p&gt;
-
-&lt;p&gt;Each layer of the park meets different demands: art, landscape, and infrastructure are superimposed over remediation systems, drainage collection, and existing transporation routes.&amp;nbsp;&lt;/p&gt;
-" style="padding-bottom: 66.700924974306%">
-						<img class="js-lazyload lazyimage" data-src="/images/Denny_Regrade_01_1.jpg?w=1600" data-srcset="/images/Denny_Regrade_01_1.jpg?w=100 100w,/images/Denny_Regrade_01_1.jpg?w=200 200w,/images/Denny_Regrade_01_1.jpg?w=300 300w,/images/Denny_Regrade_01_1.jpg?w=400 400w,/images/Denny_Regrade_01_1.jpg?w=500 500w,/images/Denny_Regrade_01_1.jpg?w=640 640w,/images/Denny_Regrade_01_1.jpg?w=750 750w,/images/Denny_Regrade_01_1.jpg?w=828 828w,/images/Denny_Regrade_01_1.jpg?w=1024 1024w,/images/Denny_Regrade_01_1.jpg?w=1125 1125w,/images/Denny_Regrade_01_1.jpg?w=1242 1242w,/images/Denny_Regrade_01_1.jpg?w=1280 1280w,/images/Denny_Regrade_01_1.jpg?w=1400 1400w,/images/Denny_Regrade_01_1.jpg?w=1500 1500w,/images/Denny_Regrade_01_1.jpg?w=1600 1600w,/images/Denny_Regrade_01_1.jpg?w=1700 1700w,/images/Denny_Regrade_01_1.jpg?w=1800 1800w,/images/Denny_Regrade_01_1.jpg?w=1920 1920w" data-sizes="auto" alt="" src="">
-					</a>
-					<div class="side-item__text">
-						<p>Seattle former industrial landscape (above).&nbsp;</p>
-
-<p>Each layer of the park meets different demands: art, landscape, and infrastructure are superimposed over remediation systems, drainage collection, and existing transporation routes.&nbsp;</p>
-
-					</div>
-				</div>
-				<div class="side-item side-item--auto-position js-side-item-position side-item--active-forced" data-id="403">
-					<div class="side-item__text">
-						<p>Richard Serra's&nbsp;<em>Wake&nbsp;</em>is sited amongst terraced zones for smaller sculptural works. A sequence of design adjustments were made to clarify the geometry of the valley precinct relative to the final placement of the piece.&nbsp;</p>
-
-					</div>
-				</div>
-
-				<div class="side-item side-item--auto-position js-side-item-position side-item--active-forced" data-id="408">
-					<a href="/images/Persp_Shore_before.jpg?w=2000" class="side-item__image js-lightbox" data-width="1700" data-height="692" data-caption="&lt;p&gt;The newly designed beach encourages biodiversity on a site previously damaged by petrochemical waste. The new shoreline is designed with aquatic terraces that form a subtidal safe haven for a juvenile salmon marine habitat.&amp;nbsp;&lt;/p&gt;
-" style="padding-bottom: 40.705882352941%">
-						<img class="js-lazyload lazyimage" data-src="/images/Persp_Shore_before.jpg?w=1600" data-srcset="/images/Persp_Shore_before.jpg?w=100 100w,/images/Persp_Shore_before.jpg?w=200 200w,/images/Persp_Shore_before.jpg?w=300 300w,/images/Persp_Shore_before.jpg?w=400 400w,/images/Persp_Shore_before.jpg?w=500 500w,/images/Persp_Shore_before.jpg?w=640 640w,/images/Persp_Shore_before.jpg?w=750 750w,/images/Persp_Shore_before.jpg?w=828 828w,/images/Persp_Shore_before.jpg?w=1024 1024w,/images/Persp_Shore_before.jpg?w=1125 1125w,/images/Persp_Shore_before.jpg?w=1242 1242w,/images/Persp_Shore_before.jpg?w=1280 1280w,/images/Persp_Shore_before.jpg?w=1400 1400w,/images/Persp_Shore_before.jpg?w=1500 1500w,/images/Persp_Shore_before.jpg?w=1600 1600w,/images/Persp_Shore_before.jpg?w=1700 1700w,/images/Persp_Shore_before.jpg?w=1800 1800w,/images/Persp_Shore_before.jpg?w=1920 1920w" data-sizes="auto" alt="" src="">
-					</a>
-					<div class="side-item__text">
-						<p>The newly designed beach encourages biodiversity on a site previously damaged by petrochemical waste. The new shoreline is designed with aquatic terraces that form a subtidal safe haven for a juvenile salmon marine habitat.&nbsp;</p>
-
-					</div>
-				</div>
-				<div class="side-item side-item--auto-position js-side-item-position side-item--active-forced" data-id="409">
-					<a href="/images/_crop2.jpg?w=2000" class="side-item__image js-lightbox" data-width="329" data-height="690" data-caption="&lt;p&gt;The design strategy, a Z-shaped landform, connects the three former industrial sites&amp;nbsp;and unfolds from the city to the water's edge.&amp;nbsp;&lt;/p&gt;
-" style="padding-bottom: 209.726443769%">
-						<img class="js-lazyload lazyimage" data-src="/images/_crop2.jpg?w=1600" data-srcset="/images/_crop2.jpg?w=100 100w,/images/_crop2.jpg?w=200 200w,/images/_crop2.jpg?w=300 300w,/images/_crop2.jpg?w=400 400w,/images/_crop2.jpg?w=500 500w,/images/_crop2.jpg?w=640 640w,/images/_crop2.jpg?w=750 750w,/images/_crop2.jpg?w=828 828w,/images/_crop2.jpg?w=1024 1024w,/images/_crop2.jpg?w=1125 1125w,/images/_crop2.jpg?w=1242 1242w,/images/_crop2.jpg?w=1280 1280w,/images/_crop2.jpg?w=1400 1400w,/images/_crop2.jpg?w=1500 1500w,/images/_crop2.jpg?w=1600 1600w,/images/_crop2.jpg?w=1700 1700w,/images/_crop2.jpg?w=1800 1800w,/images/_crop2.jpg?w=1920 1920w" data-sizes="auto" alt="" src="">
-					</a>
-					<div class="side-item__text">
-						<p>The design strategy, a Z-shaped landform, connects the three former industrial sites&nbsp;and unfolds from the city to the water's edge.&nbsp;</p>
-
-					</div>
-				</div>
-				<div class="side-item side-item--auto-position js-side-item-position side-item--active-forced" data-id="2652">
-					<a href="/images/sketch_3a.jpg?w=2000" class="side-item__image js-lightbox" data-width="2342" data-height="3021" data-caption="&lt;p&gt;A sloping, stepped terrace at the back of the museum offers as a multifunctional space for recreation, leisure, and performance.&amp;nbsp;&lt;/p&gt;
-" style="padding-bottom: 128.99231426132%">
-						<img class="js-lazyload lazyimage" data-src="/images/sketch_3a.jpg?w=1600" data-srcset="/images/sketch_3a.jpg?w=100 100w,/images/sketch_3a.jpg?w=200 200w,/images/sketch_3a.jpg?w=300 300w,/images/sketch_3a.jpg?w=400 400w,/images/sketch_3a.jpg?w=500 500w,/images/sketch_3a.jpg?w=640 640w,/images/sketch_3a.jpg?w=750 750w,/images/sketch_3a.jpg?w=828 828w,/images/sketch_3a.jpg?w=1024 1024w,/images/sketch_3a.jpg?w=1125 1125w,/images/sketch_3a.jpg?w=1242 1242w,/images/sketch_3a.jpg?w=1280 1280w,/images/sketch_3a.jpg?w=1400 1400w,/images/sketch_3a.jpg?w=1500 1500w,/images/sketch_3a.jpg?w=1600 1600w,/images/sketch_3a.jpg?w=1700 1700w,/images/sketch_3a.jpg?w=1800 1800w,/images/sketch_3a.jpg?w=1920 1920w" data-sizes="auto" alt="" src="">
-					</a>
-					<div class="side-item__text">
-						<p>A sloping, stepped terrace at the back of the museum offers as a multifunctional space for recreation, leisure, and performance.&nbsp;</p>
-
-					</div>
-				</div>
-				<div class="side-item side-item--auto-position js-side-item-position side-item--active-forced" data-id="2662">
-					<a href="/images/WM.sketch_05.jpg?w=2000" class="side-item__image js-lightbox" data-width="3232" data-height="2352" data-caption="" style="padding-bottom: 72.772277227723%">
-						<img class="js-lazyload lazyimage" data-src="/images/WM.sketch_05.jpg?w=1600" data-srcset="/images/WM.sketch_05.jpg?w=100 100w,/images/WM.sketch_05.jpg?w=200 200w,/images/WM.sketch_05.jpg?w=300 300w,/images/WM.sketch_05.jpg?w=400 400w,/images/WM.sketch_05.jpg?w=500 500w,/images/WM.sketch_05.jpg?w=640 640w,/images/WM.sketch_05.jpg?w=750 750w,/images/WM.sketch_05.jpg?w=828 828w,/images/WM.sketch_05.jpg?w=1024 1024w,/images/WM.sketch_05.jpg?w=1125 1125w,/images/WM.sketch_05.jpg?w=1242 1242w,/images/WM.sketch_05.jpg?w=1280 1280w,/images/WM.sketch_05.jpg?w=1400 1400w,/images/WM.sketch_05.jpg?w=1500 1500w,/images/WM.sketch_05.jpg?w=1600 1600w,/images/WM.sketch_05.jpg?w=1700 1700w,/images/WM.sketch_05.jpg?w=1800 1800w,/images/WM.sketch_05.jpg?w=1920 1920w" data-sizes="auto" alt="" src="">
-					</a>
-				</div>
-			</div>
-		</div>
-
-		<div class="page-column page-column--scrollable fx-max-width fx-grid js-scroll-fade">
-			<div class="page-column__content fx-right-v-border">
-
-			<div class="page-column__side">
-				<div class="side-item side-item--bottom">
-					<div class="side-item__title">
-						<a href="/recognition" class="fx-underline-ani">See All Awards →</a>
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<div class="page-column page-column--scrollable fx-max-width fx-grid js-scroll-fade">
-			<div class="page-column__content fx-right-v-border">
-				<div class="scrollable__title">
-					Press
-				</div>
-				<div class="scrollable js-scrollbar-height">
-					<div class="scrollable__content js-scrollable">
-
-						<div class="scrollable-see-all-link fx-show-on-mobile">
-							<a href="/recognition" class="fx-underline-ani">See All Press →</a>
+				<div class="page-column__side">
+					<div class="side-item side-item--auto-position js-side-item-position side-item--active-forced" data-id="394">
+						<a href="/images/WM.sketch_02_3.jpg?w=2000" class="side-item__image js-lightbox" data-width="2400" data-height="1330" data-caption="&lt;p&gt;Three former industrial sites, located between downtown Seattle and the waters of Elliot Bay, were separated by roadways and rail lines.&lt;/p&gt;
+	" style="padding-bottom: 55.416666666667%">
+							<img class="js-lazyload lazyimage" data-src="/images/WM.sketch_02_3.jpg?w=1600" data-srcset="/images/WM.sketch_02_3.jpg?w=100 100w,/images/WM.sketch_02_3.jpg?w=200 200w,/images/WM.sketch_02_3.jpg?w=300 300w,/images/WM.sketch_02_3.jpg?w=400 400w,/images/WM.sketch_02_3.jpg?w=500 500w,/images/WM.sketch_02_3.jpg?w=640 640w,/images/WM.sketch_02_3.jpg?w=750 750w,/images/WM.sketch_02_3.jpg?w=828 828w,/images/WM.sketch_02_3.jpg?w=1024 1024w,/images/WM.sketch_02_3.jpg?w=1125 1125w,/images/WM.sketch_02_3.jpg?w=1242 1242w,/images/WM.sketch_02_3.jpg?w=1280 1280w,/images/WM.sketch_02_3.jpg?w=1400 1400w,/images/WM.sketch_02_3.jpg?w=1500 1500w,/images/WM.sketch_02_3.jpg?w=1600 1600w,/images/WM.sketch_02_3.jpg?w=1700 1700w,/images/WM.sketch_02_3.jpg?w=1800 1800w,/images/WM.sketch_02_3.jpg?w=1920 1920w" data-sizes="auto" alt="" src="">
+						</a>
+						<div class="side-item__text">
+							<p>Three former industrial sites, located between downtown Seattle and the waters of Elliot Bay, were separated by roadways and rail lines.</p>
+	
 						</div>
 					</div>
-				</div>
-			</div>
-
-			<div class="page-column__side">
-				<div class="side-item side-item--bottom">
-					<div class="side-item__title">
-						<a href="/recognition" class="fx-underline-ani">See All Press →</a>
+					<div class="side-item side-item--auto-position js-side-item-position side-item--active-forced" data-id="2264">
+						<a href="/images/_crop5_6.jpg?w=2000" class="side-item__image js-lightbox" data-width="1243" data-height="1298" data-caption="&lt;p&gt;The original concept sketch&amp;nbsp;(above).&lt;/p&gt;
+	
+	&lt;p&gt;The&amp;nbsp;constructed landforms, linked by two bridges, form a continous topography that descends forty-feet from the city to the newly created beach.&amp;nbsp;&lt;/p&gt;
+	" style="padding-bottom: 104.42477876106%">
+							<img class="js-lazyload lazyimage" data-src="/images/_crop5_6.jpg?w=1600" data-srcset="/images/_crop5_6.jpg?w=100 100w,/images/_crop5_6.jpg?w=200 200w,/images/_crop5_6.jpg?w=300 300w,/images/_crop5_6.jpg?w=400 400w,/images/_crop5_6.jpg?w=500 500w,/images/_crop5_6.jpg?w=640 640w,/images/_crop5_6.jpg?w=750 750w,/images/_crop5_6.jpg?w=828 828w,/images/_crop5_6.jpg?w=1024 1024w,/images/_crop5_6.jpg?w=1125 1125w,/images/_crop5_6.jpg?w=1242 1242w,/images/_crop5_6.jpg?w=1280 1280w,/images/_crop5_6.jpg?w=1400 1400w,/images/_crop5_6.jpg?w=1500 1500w,/images/_crop5_6.jpg?w=1600 1600w,/images/_crop5_6.jpg?w=1700 1700w,/images/_crop5_6.jpg?w=1800 1800w,/images/_crop5_6.jpg?w=1920 1920w" data-sizes="auto" alt="" src="">
+						</a>
+						<div class="side-item__text">
+							<p>The original concept sketch&nbsp;(above).</p>
+	
+	<p>The&nbsp;constructed landforms, linked by two bridges, form a continous topography that descends forty-feet from the city to the newly created beach.&nbsp;</p>
+	
+						</div>
+					</div>
+					<div class="side-item side-item--auto-position js-side-item-position side-item--active-forced" data-id="396">
+						<a href="/images/WM.sketch_01.jpg?w=2000" class="side-item__image js-lightbox" data-width="3401" data-height="1571" data-caption="&lt;p&gt;The shifting planes of the site design establish distinct precincts that create topographically varied settings for art.&amp;nbsp;&lt;/p&gt;
+	" style="padding-bottom: 46.192296383417%">
+							<img class="js-lazyload lazyimage" data-src="/images/WM.sketch_01.jpg?w=1600" data-srcset="/images/WM.sketch_01.jpg?w=100 100w,/images/WM.sketch_01.jpg?w=200 200w,/images/WM.sketch_01.jpg?w=300 300w,/images/WM.sketch_01.jpg?w=400 400w,/images/WM.sketch_01.jpg?w=500 500w,/images/WM.sketch_01.jpg?w=640 640w,/images/WM.sketch_01.jpg?w=750 750w,/images/WM.sketch_01.jpg?w=828 828w,/images/WM.sketch_01.jpg?w=1024 1024w,/images/WM.sketch_01.jpg?w=1125 1125w,/images/WM.sketch_01.jpg?w=1242 1242w,/images/WM.sketch_01.jpg?w=1280 1280w,/images/WM.sketch_01.jpg?w=1400 1400w,/images/WM.sketch_01.jpg?w=1500 1500w,/images/WM.sketch_01.jpg?w=1600 1600w,/images/WM.sketch_01.jpg?w=1700 1700w,/images/WM.sketch_01.jpg?w=1800 1800w,/images/WM.sketch_01.jpg?w=1920 1920w" data-sizes="auto" alt="" src="">
+						</a>
+						<div class="side-item__text">
+							<p>The shifting planes of the site design establish distinct precincts that create topographically varied settings for art.&nbsp;</p>
+	
+						</div>
+					</div>
+					<div class="side-item side-item--auto-position js-side-item-position side-item--active-forced" data-id="400">
+					</div>
+					<div class="side-item side-item--auto-position js-side-item-position side-item--active-forced" data-id="401">
+						<a href="/images/Block_9_2_2.jpg?w=2000" class="side-item__image js-lightbox" data-width="1946" data-height="1298" data-caption="&lt;p&gt;Alexander Calder's&amp;nbsp;&lt;em&gt;Eagle&amp;nbsp;&lt;/em&gt;servers as the visual icon for the park&amp;nbsp;and is perched over Elliott Avenue and seen in silhouette against the horizon.&lt;/p&gt;
+	" style="padding-bottom: 66.700924974306%">
+							<img class="js-lazyload lazyimage" data-src="/images/Block_9_2_2.jpg?w=1600" data-srcset="/images/Block_9_2_2.jpg?w=100 100w,/images/Block_9_2_2.jpg?w=200 200w,/images/Block_9_2_2.jpg?w=300 300w,/images/Block_9_2_2.jpg?w=400 400w,/images/Block_9_2_2.jpg?w=500 500w,/images/Block_9_2_2.jpg?w=640 640w,/images/Block_9_2_2.jpg?w=750 750w,/images/Block_9_2_2.jpg?w=828 828w,/images/Block_9_2_2.jpg?w=1024 1024w,/images/Block_9_2_2.jpg?w=1125 1125w,/images/Block_9_2_2.jpg?w=1242 1242w,/images/Block_9_2_2.jpg?w=1280 1280w,/images/Block_9_2_2.jpg?w=1400 1400w,/images/Block_9_2_2.jpg?w=1500 1500w,/images/Block_9_2_2.jpg?w=1600 1600w,/images/Block_9_2_2.jpg?w=1700 1700w,/images/Block_9_2_2.jpg?w=1800 1800w,/images/Block_9_2_2.jpg?w=1920 1920w" data-sizes="auto" alt="" src="">
+						</a>
+						<div class="side-item__text">
+							<p>Alexander Calder's&nbsp;<em>Eagle&nbsp;</em>servers as the visual icon for the park&nbsp;and is perched over Elliott Avenue and seen in silhouette against the horizon.</p>
+	
+						</div>
+					</div>
+					<div class="side-item side-item--auto-position js-side-item-position side-item--active-forced" data-id="402">
+						<a href="/images/Denny_Regrade_01_1.jpg?w=2000" class="side-item__image js-lightbox" data-width="1946" data-height="1298" data-caption="&lt;p&gt;Seattle former industrial landscape (above).&amp;nbsp;&lt;/p&gt;
+	
+	&lt;p&gt;Each layer of the park meets different demands: art, landscape, and infrastructure are superimposed over remediation systems, drainage collection, and existing transporation routes.&amp;nbsp;&lt;/p&gt;
+	" style="padding-bottom: 66.700924974306%">
+							<img class="js-lazyload lazyimage" data-src="/images/Denny_Regrade_01_1.jpg?w=1600" data-srcset="/images/Denny_Regrade_01_1.jpg?w=100 100w,/images/Denny_Regrade_01_1.jpg?w=200 200w,/images/Denny_Regrade_01_1.jpg?w=300 300w,/images/Denny_Regrade_01_1.jpg?w=400 400w,/images/Denny_Regrade_01_1.jpg?w=500 500w,/images/Denny_Regrade_01_1.jpg?w=640 640w,/images/Denny_Regrade_01_1.jpg?w=750 750w,/images/Denny_Regrade_01_1.jpg?w=828 828w,/images/Denny_Regrade_01_1.jpg?w=1024 1024w,/images/Denny_Regrade_01_1.jpg?w=1125 1125w,/images/Denny_Regrade_01_1.jpg?w=1242 1242w,/images/Denny_Regrade_01_1.jpg?w=1280 1280w,/images/Denny_Regrade_01_1.jpg?w=1400 1400w,/images/Denny_Regrade_01_1.jpg?w=1500 1500w,/images/Denny_Regrade_01_1.jpg?w=1600 1600w,/images/Denny_Regrade_01_1.jpg?w=1700 1700w,/images/Denny_Regrade_01_1.jpg?w=1800 1800w,/images/Denny_Regrade_01_1.jpg?w=1920 1920w" data-sizes="auto" alt="" src="">
+						</a>
+						<div class="side-item__text">
+							<p>Seattle former industrial landscape (above).&nbsp;</p>
+	
+	<p>Each layer of the park meets different demands: art, landscape, and infrastructure are superimposed over remediation systems, drainage collection, and existing transporation routes.&nbsp;</p>
+	
+						</div>
+					</div>
+					<div class="side-item side-item--auto-position js-side-item-position side-item--active-forced" data-id="403">
+						<div class="side-item__text">
+							<p>Richard Serra's&nbsp;<em>Wake&nbsp;</em>is sited amongst terraced zones for smaller sculptural works. A sequence of design adjustments were made to clarify the geometry of the valley precinct relative to the final placement of the piece.&nbsp;</p>
+	
+						</div>
+					</div>
+					<div class="side-item side-item--auto-position js-side-item-position side-item--active-forced" data-id="404">
+						<a href="/images/WM.sketch_25.jpg?w=2000" class="side-item__image js-lightbox" data-width="2143" data-height="1650" data-caption="&lt;p&gt;In the evening, the pavilion becomes a luminous presence within the park and the city, providing a terminus to the runway of lights that dot the pedestrian path.&lt;/p&gt;
+	" style="padding-bottom: 76.994867008866%">
+							<img class="js-lazyload lazyimage" data-src="/images/WM.sketch_25.jpg?w=1600" data-srcset="/images/WM.sketch_25.jpg?w=100 100w,/images/WM.sketch_25.jpg?w=200 200w,/images/WM.sketch_25.jpg?w=300 300w,/images/WM.sketch_25.jpg?w=400 400w,/images/WM.sketch_25.jpg?w=500 500w,/images/WM.sketch_25.jpg?w=640 640w,/images/WM.sketch_25.jpg?w=750 750w,/images/WM.sketch_25.jpg?w=828 828w,/images/WM.sketch_25.jpg?w=1024 1024w,/images/WM.sketch_25.jpg?w=1125 1125w,/images/WM.sketch_25.jpg?w=1242 1242w,/images/WM.sketch_25.jpg?w=1280 1280w,/images/WM.sketch_25.jpg?w=1400 1400w,/images/WM.sketch_25.jpg?w=1500 1500w,/images/WM.sketch_25.jpg?w=1600 1600w,/images/WM.sketch_25.jpg?w=1700 1700w,/images/WM.sketch_25.jpg?w=1800 1800w,/images/WM.sketch_25.jpg?w=1920 1920w" data-sizes="auto" alt="" src="">
+						</a>
+						<div class="side-item__text">
+							<p>In the evening, the pavilion becomes a luminous presence within the park and the city, providing a terminus to the runway of lights that dot the pedestrian path.</p>
+	
+						</div>
+					</div>
+					<div class="side-item side-item--auto-position js-side-item-position side-item--active-forced" data-id="2265">
+						<div class="side-item__text">
+							<p>The pavilion contains a cafe; a multipurpose space for performance, lectures, events, and exhibition; offices; and a parking garage in the lower level.&nbsp;</p>
+	
+						</div>
+					</div>
+					<div class="side-item side-item--auto-position js-side-item-position side-item--active-forced" data-id="3232">
+					</div>
+					<div class="side-item side-item--auto-position js-side-item-position side-item--active-forced" data-id="405">
+						<a href="/images/14.jpg?w=2000" class="side-item__image js-lightbox" data-width="700" data-height="900" data-caption="&lt;p&gt;The 2,200-foot-long pedestrian route begins at the 12,000-square-foot multi-use pavilion from which visitors traverse the site on a pathway that establishes topographic variations and open up radically different prospects.&lt;/p&gt;
+	" style="padding-bottom: 128.57142857143%">
+							<img class="js-lazyload lazyimage" data-src="/images/14.jpg?w=1600" data-srcset="/images/14.jpg?w=100 100w,/images/14.jpg?w=200 200w,/images/14.jpg?w=300 300w,/images/14.jpg?w=400 400w,/images/14.jpg?w=500 500w,/images/14.jpg?w=640 640w,/images/14.jpg?w=750 750w,/images/14.jpg?w=828 828w,/images/14.jpg?w=1024 1024w,/images/14.jpg?w=1125 1125w,/images/14.jpg?w=1242 1242w,/images/14.jpg?w=1280 1280w,/images/14.jpg?w=1400 1400w,/images/14.jpg?w=1500 1500w,/images/14.jpg?w=1600 1600w,/images/14.jpg?w=1700 1700w,/images/14.jpg?w=1800 1800w,/images/14.jpg?w=1920 1920w" data-sizes="auto" alt="" src="">
+						</a>
+						<div class="side-item__text">
+							<p>The 2,200-foot-long pedestrian route begins at the 12,000-square-foot multi-use pavilion from which visitors traverse the site on a pathway that establishes topographic variations and open up radically different prospects.</p>
+	
+						</div>
+					</div>
+					<div class="side-item side-item--auto-position js-side-item-position side-item--active-forced" data-id="406">
+						<a href="/images/WM.sketch_shoreline.jpg?w=2000" class="side-item__image js-lightbox" data-width="1700" data-height="1003" data-caption="&lt;p&gt;The chameleonlike section reveals its multiple roles: to elevate the pavilion, cross a highway, bridge over train tracks, and reshape the waterfront.&lt;/p&gt;
+	" style="padding-bottom: 59%">
+							<img class="js-lazyload lazyimage" data-src="/images/WM.sketch_shoreline.jpg?w=1600" data-srcset="/images/WM.sketch_shoreline.jpg?w=100 100w,/images/WM.sketch_shoreline.jpg?w=200 200w,/images/WM.sketch_shoreline.jpg?w=300 300w,/images/WM.sketch_shoreline.jpg?w=400 400w,/images/WM.sketch_shoreline.jpg?w=500 500w,/images/WM.sketch_shoreline.jpg?w=640 640w,/images/WM.sketch_shoreline.jpg?w=750 750w,/images/WM.sketch_shoreline.jpg?w=828 828w,/images/WM.sketch_shoreline.jpg?w=1024 1024w,/images/WM.sketch_shoreline.jpg?w=1125 1125w,/images/WM.sketch_shoreline.jpg?w=1242 1242w,/images/WM.sketch_shoreline.jpg?w=1280 1280w,/images/WM.sketch_shoreline.jpg?w=1400 1400w,/images/WM.sketch_shoreline.jpg?w=1500 1500w,/images/WM.sketch_shoreline.jpg?w=1600 1600w,/images/WM.sketch_shoreline.jpg?w=1700 1700w,/images/WM.sketch_shoreline.jpg?w=1800 1800w,/images/WM.sketch_shoreline.jpg?w=1920 1920w" data-sizes="auto" alt="" src="">
+						</a>
+						<div class="side-item__text">
+							<p>The chameleonlike section reveals its multiple roles: to elevate the pavilion, cross a highway, bridge over train tracks, and reshape the waterfront.</p>
+	
+						</div>
+					</div>
+					<div class="side-item side-item--auto-position js-side-item-position side-item--active-forced" data-id="3231">
+					</div>
+					<div class="side-item side-item--auto-position js-side-item-position side-item--active-forced" data-id="407">
+						<a href="/images/14.Seattle_R_38.jpg?w=2000" class="side-item__image js-lightbox" data-width="2988" data-height="1132" data-caption="&lt;p&gt;Throughout the park, landforms and plantings collaborate to direct, collect, and cleanse storm water as it moves through the site before being released into the bay.&lt;/p&gt;
+	" style="padding-bottom: 37.884872824632%">
+							<img class="js-lazyload lazyimage" data-src="/images/14.Seattle_R_38.jpg?w=1600" data-srcset="/images/14.Seattle_R_38.jpg?w=100 100w,/images/14.Seattle_R_38.jpg?w=200 200w,/images/14.Seattle_R_38.jpg?w=300 300w,/images/14.Seattle_R_38.jpg?w=400 400w,/images/14.Seattle_R_38.jpg?w=500 500w,/images/14.Seattle_R_38.jpg?w=640 640w,/images/14.Seattle_R_38.jpg?w=750 750w,/images/14.Seattle_R_38.jpg?w=828 828w,/images/14.Seattle_R_38.jpg?w=1024 1024w,/images/14.Seattle_R_38.jpg?w=1125 1125w,/images/14.Seattle_R_38.jpg?w=1242 1242w,/images/14.Seattle_R_38.jpg?w=1280 1280w,/images/14.Seattle_R_38.jpg?w=1400 1400w,/images/14.Seattle_R_38.jpg?w=1500 1500w,/images/14.Seattle_R_38.jpg?w=1600 1600w,/images/14.Seattle_R_38.jpg?w=1700 1700w,/images/14.Seattle_R_38.jpg?w=1800 1800w,/images/14.Seattle_R_38.jpg?w=1920 1920w" data-sizes="auto" alt="" src="">
+						</a>
+						<div class="side-item__text">
+							<p>Throughout the park, landforms and plantings collaborate to direct, collect, and cleanse storm water as it moves through the site before being released into the bay.</p>
+	
+						</div>
+					</div>
+					<div class="side-item side-item--auto-position js-side-item-position side-item--active-forced" data-id="408">
+						<a href="/images/Persp_Shore_before.jpg?w=2000" class="side-item__image js-lightbox" data-width="1700" data-height="692" data-caption="&lt;p&gt;The newly designed beach encourages biodiversity on a site previously damaged by petrochemical waste. The new shoreline is designed with aquatic terraces that form a subtidal safe haven for a juvenile salmon marine habitat.&amp;nbsp;&lt;/p&gt;
+	" style="padding-bottom: 40.705882352941%">
+							<img class="js-lazyload lazyimage" data-src="/images/Persp_Shore_before.jpg?w=1600" data-srcset="/images/Persp_Shore_before.jpg?w=100 100w,/images/Persp_Shore_before.jpg?w=200 200w,/images/Persp_Shore_before.jpg?w=300 300w,/images/Persp_Shore_before.jpg?w=400 400w,/images/Persp_Shore_before.jpg?w=500 500w,/images/Persp_Shore_before.jpg?w=640 640w,/images/Persp_Shore_before.jpg?w=750 750w,/images/Persp_Shore_before.jpg?w=828 828w,/images/Persp_Shore_before.jpg?w=1024 1024w,/images/Persp_Shore_before.jpg?w=1125 1125w,/images/Persp_Shore_before.jpg?w=1242 1242w,/images/Persp_Shore_before.jpg?w=1280 1280w,/images/Persp_Shore_before.jpg?w=1400 1400w,/images/Persp_Shore_before.jpg?w=1500 1500w,/images/Persp_Shore_before.jpg?w=1600 1600w,/images/Persp_Shore_before.jpg?w=1700 1700w,/images/Persp_Shore_before.jpg?w=1800 1800w,/images/Persp_Shore_before.jpg?w=1920 1920w" data-sizes="auto" alt="" src="">
+						</a>
+						<div class="side-item__text">
+							<p>The newly designed beach encourages biodiversity on a site previously damaged by petrochemical waste. The new shoreline is designed with aquatic terraces that form a subtidal safe haven for a juvenile salmon marine habitat.&nbsp;</p>
+	
+						</div>
+					</div>
+					<div class="side-item side-item--auto-position js-side-item-position side-item--active-forced" data-id="409">
+						<a href="/images/_crop2.jpg?w=2000" class="side-item__image js-lightbox" data-width="329" data-height="690" data-caption="&lt;p&gt;The design strategy, a Z-shaped landform, connects the three former industrial sites&amp;nbsp;and unfolds from the city to the water's edge.&amp;nbsp;&lt;/p&gt;
+	" style="padding-bottom: 209.726443769%">
+							<img class="js-lazyload lazyimage" data-src="/images/_crop2.jpg?w=1600" data-srcset="/images/_crop2.jpg?w=100 100w,/images/_crop2.jpg?w=200 200w,/images/_crop2.jpg?w=300 300w,/images/_crop2.jpg?w=400 400w,/images/_crop2.jpg?w=500 500w,/images/_crop2.jpg?w=640 640w,/images/_crop2.jpg?w=750 750w,/images/_crop2.jpg?w=828 828w,/images/_crop2.jpg?w=1024 1024w,/images/_crop2.jpg?w=1125 1125w,/images/_crop2.jpg?w=1242 1242w,/images/_crop2.jpg?w=1280 1280w,/images/_crop2.jpg?w=1400 1400w,/images/_crop2.jpg?w=1500 1500w,/images/_crop2.jpg?w=1600 1600w,/images/_crop2.jpg?w=1700 1700w,/images/_crop2.jpg?w=1800 1800w,/images/_crop2.jpg?w=1920 1920w" data-sizes="auto" alt="" src="">
+						</a>
+						<div class="side-item__text">
+							<p>The design strategy, a Z-shaped landform, connects the three former industrial sites&nbsp;and unfolds from the city to the water's edge.&nbsp;</p>
+	
+						</div>
+					</div>
+					<div class="side-item side-item--auto-position js-side-item-position side-item--active-forced" data-id="2652">
+						<a href="/images/sketch_3a.jpg?w=2000" class="side-item__image js-lightbox" data-width="2342" data-height="3021" data-caption="&lt;p&gt;A sloping, stepped terrace at the back of the museum offers as a multifunctional space for recreation, leisure, and performance.&amp;nbsp;&lt;/p&gt;
+	" style="padding-bottom: 128.99231426132%">
+							<img class="js-lazyload lazyimage" data-src="/images/sketch_3a.jpg?w=1600" data-srcset="/images/sketch_3a.jpg?w=100 100w,/images/sketch_3a.jpg?w=200 200w,/images/sketch_3a.jpg?w=300 300w,/images/sketch_3a.jpg?w=400 400w,/images/sketch_3a.jpg?w=500 500w,/images/sketch_3a.jpg?w=640 640w,/images/sketch_3a.jpg?w=750 750w,/images/sketch_3a.jpg?w=828 828w,/images/sketch_3a.jpg?w=1024 1024w,/images/sketch_3a.jpg?w=1125 1125w,/images/sketch_3a.jpg?w=1242 1242w,/images/sketch_3a.jpg?w=1280 1280w,/images/sketch_3a.jpg?w=1400 1400w,/images/sketch_3a.jpg?w=1500 1500w,/images/sketch_3a.jpg?w=1600 1600w,/images/sketch_3a.jpg?w=1700 1700w,/images/sketch_3a.jpg?w=1800 1800w,/images/sketch_3a.jpg?w=1920 1920w" data-sizes="auto" alt="" src="">
+						</a>
+						<div class="side-item__text">
+							<p>A sloping, stepped terrace at the back of the museum offers as a multifunctional space for recreation, leisure, and performance.&nbsp;</p>
+	
+						</div>
+					</div>
+					<div class="side-item side-item--auto-position js-side-item-position side-item--active-forced" data-id="2662">
+						<a href="/images/WM.sketch_05.jpg?w=2000" class="side-item__image js-lightbox" data-width="3232" data-height="2352" data-caption="" style="padding-bottom: 72.772277227723%">
+							<img class="js-lazyload lazyimage" data-src="/images/WM.sketch_05.jpg?w=1600" data-srcset="/images/WM.sketch_05.jpg?w=100 100w,/images/WM.sketch_05.jpg?w=200 200w,/images/WM.sketch_05.jpg?w=300 300w,/images/WM.sketch_05.jpg?w=400 400w,/images/WM.sketch_05.jpg?w=500 500w,/images/WM.sketch_05.jpg?w=640 640w,/images/WM.sketch_05.jpg?w=750 750w,/images/WM.sketch_05.jpg?w=828 828w,/images/WM.sketch_05.jpg?w=1024 1024w,/images/WM.sketch_05.jpg?w=1125 1125w,/images/WM.sketch_05.jpg?w=1242 1242w,/images/WM.sketch_05.jpg?w=1280 1280w,/images/WM.sketch_05.jpg?w=1400 1400w,/images/WM.sketch_05.jpg?w=1500 1500w,/images/WM.sketch_05.jpg?w=1600 1600w,/images/WM.sketch_05.jpg?w=1700 1700w,/images/WM.sketch_05.jpg?w=1800 1800w,/images/WM.sketch_05.jpg?w=1920 1920w" data-sizes="auto" alt="" src="">
+						</a>
 					</div>
 				</div>
+			
+
 			</div>
 		</div>
 
-
-	</div>
 
 
 <div class="container1">
@@ -500,9 +408,6 @@ kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk
     <!--  javascripts -->
     <script src="js/javascript.js"></script>
 	<script type="text/javascript" src="js/lazysizes.min.js"></script>
-	<button onclick="notifyIP()">Notify My IP Address</button>
-
-
 
 </body>
 
