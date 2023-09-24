@@ -62,7 +62,13 @@ html, body {
   padding-bottom: 1.2rem; 
   padding-left: 2.3rem;
 }
-
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+}
 .hide-navbar {
   transform: translateY(-100%);
   transition: transform 0.4s ease-in-out;
@@ -465,7 +471,10 @@ padding-bottom: 2px;
   text-align: left;
   padding-left: 20px;
 }
-
+.item2 button:hover {
+  background-color: black;
+  color: white;
+}
 
 .arrow[_ngcontent-serverApp-c84] {
   background:rgba(255,255,255,.25);
