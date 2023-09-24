@@ -37,7 +37,7 @@
   <main>
 
  <!-- nav -->
-  <nav class="navbar navbar-dark bg-dark fixed-top">
+  <nav class="navbar navbar-dark bg-dark fixed-top show-navbar">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">Saba Seddigh</a>
 
@@ -121,10 +121,15 @@ const toggleNavbar = () => {
   prevScrollPos = currentScrollPos;
 };
 
-
 // Attach the toggleNavbar function to the window's scroll event
 window.addEventListener('scroll', toggleNavbar);
+
+window.onload = function() {
+  showNavbar();
+};
 </script>
+
+
 <div class="container1">
   <div data-aos="fade-up" data-aos-easing="linear" data-aos-offset="100" data-aos-duration="4000">
 <h2 class="titlebody">About</h2>
