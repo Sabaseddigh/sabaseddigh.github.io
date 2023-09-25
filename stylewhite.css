@@ -132,6 +132,9 @@ nav li.active a {
 .qr-img{
   max-block-size: 170px;
 }
+.saba-img{
+  max-block-size:220px;
+}
 
 .line {
   width: 90%; /* Set the width to 100% to span the entire page */
@@ -472,7 +475,7 @@ padding-bottom: 2px;
   text-align: left;
   padding-left: 20px;
 }
-.item2 button:hover {
+.button-cv:hover {
   background-color: black;
   color: white;
 }
