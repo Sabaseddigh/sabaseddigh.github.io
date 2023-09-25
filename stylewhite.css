@@ -21,7 +21,7 @@ body{
   justify-content: center;
   color: #000000;
   margin-top: 4rem ;
-padding-top: 40px;
+padding-top: 20px;
 }
 .container1{
    margin-right: 40px;
@@ -62,19 +62,11 @@ html, body {
   padding-bottom: 1.2rem; 
   padding-left: 2.3rem;
 }
-.navbar {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 9999;
-    transition: transform 0.3s ease-in-out;
-}
+
 .hide-navbar {
   transform: translateY(-100%);
   transition: transform 0.4s ease-in-out;
 }
-
 .show-navbar {
   transform: translateY(0);
 }
@@ -135,6 +127,10 @@ nav li.active a {
   font-size: 18px;
   transition: all 100ms ease-in-out;
   background-color: none;
+}
+
+.qr-img{
+  max-block-size: 170px;
 }
 
 .line {

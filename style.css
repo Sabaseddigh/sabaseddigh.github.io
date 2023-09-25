@@ -64,10 +64,23 @@ html, body {
   box-shadow: 0 0.1rem 1rem rgba(16, 16, 16, 0.563);
 }
 
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+    transition: transform 0.3s ease-in-out;
+}
 .hide-navbar {
   transform: translateY(-100%);
   transition: transform 0.4s ease-in-out;
 }
+
+.shownavbar {
+  transform: translateY(0);
+}
+
 
 .navbar-brand{
   font-size: 28px;

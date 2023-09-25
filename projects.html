@@ -41,7 +41,7 @@
  <!-- nav -->
   <nav class="navbar navbar-dark bg-dark fixed-top">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">Saba Seddigh</a>
+      <a class="navbar-brand show-navbar" href="#">Saba Seddigh</a>
 
     
       <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
@@ -127,6 +127,10 @@ const toggleNavbar = () => {
 
 // Attach the toggleNavbar function to the window's scroll event
 window.addEventListener('scroll', toggleNavbar);
+
+window.onload = function() {
+  showNavbar();
+};
 </script>
 
 
@@ -147,7 +151,7 @@ window.addEventListener('scroll', toggleNavbar);
   </div>
 
   <div class="page-filter fx-max-width js-scroll-fade js-scroll-fade--faded">
-<a href="/index.html" class="btn btn-branding"
+<a href="/index.html" class="btn btn-branding page-top__back"
 >Back to Homepage</a>
   </div>
 

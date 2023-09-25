@@ -55,9 +55,22 @@ html, body {
   padding-left: 2.3rem;
 }
 
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+    transition: transform 0.3s ease-in-out;
+}
 .hide-navbar {
   transform: translateY(-100%);
   transition: transform 0.4s ease-in-out;
+}
+
+.show-navbar {
+  transform: translateY(0);
 }
 
 .navbar-brand{
@@ -239,7 +252,7 @@ footer .social-links a:hover {
 }
 
 .block--large {
-  font: normal 25px/40px "Suisse Intl",Helvetica,Arial,sans-serif;
+  font: normal 25px/40px 'Figtree',Helvetica,Arial,sans-serif;
   letter-spacing: 0;
   color: #000000;
   margin-left: 40px;
@@ -529,7 +542,7 @@ padding-bottom: 2px;
   width:74.2378%
 }
 .page-top__title {
-  font:normal 45px/60px "Suisse Intl",Helvetica,Arial,sans-serif;
+  font:normal 45px/60px 'Figtree',Helvetica,Arial,sans-serif;
   letter-spacing:0
 }
 @media (max-width: 1225px) {
@@ -548,7 +561,7 @@ padding-bottom: 2px;
   margin-top:46px
 }
 .page-top__intro {
-  font:normal 30px/42px "Suisse Intl",Helvetica,Arial,sans-serif;
+  font:normal 30px/42px 'Figtree',Helvetica,Arial,sans-serif;
   letter-spacing:0.01em
 }
 @media (max-width: 1225px) {
@@ -706,7 +719,7 @@ padding-bottom: 2px;
   padding-bottom:66.738%
 }
 .preview-project__title {
-  font:normal 30px/42px "Suisse Intl",Helvetica,Arial,sans-serif;
+  font:normal 30px/42px 'Figtree',Helvetica,Arial,sans-serif;
   letter-spacing:0.01em;
   display:block;
   margin-top:15px
@@ -736,7 +749,7 @@ padding-bottom: 2px;
   padding-top:30px
 }
 .side-item__title {
-  font:normal 22px/31px "Suisse Intl",Helvetica,Arial,sans-serif;
+  font:normal 22px/31px 'Figtree',Helvetica,Arial,sans-serif;
   letter-spacing:0.01em
 }
 @media (max-width: 1225px) {
@@ -752,7 +765,7 @@ padding-bottom: 2px;
   }
 }
 .side-item__text {
-  font:normal 16px/23px "Suisse Intl",Helvetica,Arial,sans-serif;
+  font:normal 16px/23px 'Figtree',Helvetica,Arial,sans-serif;
   letter-spacing:0.015em
 }
 @media (max-width: 1225px) {
@@ -806,7 +819,7 @@ padding-bottom: 2px;
   color:#7f7f7f
 }
 .loadmore {
-  font:normal 45px/60px "Suisse Intl",Helvetica,Arial,sans-serif;
+  font:normal 45px/60px 'Figtree',Helvetica,Arial,sans-serif;
   letter-spacing:0;
   margin-top:148px
 }
@@ -926,7 +939,7 @@ padding-bottom: 2px;
   display:block
 }
 .person__name {
-  font:normal 22px/31px "Suisse Intl",Helvetica,Arial,sans-serif;
+  font:normal 22px/31px 'Figtree',Helvetica,Arial,sans-serif;
   letter-spacing:0.01em;
   margin-top:15px
 }
@@ -943,7 +956,7 @@ padding-bottom: 2px;
   }
 }
 .person__link {
-  font:normal 22px/31px "Suisse Intl",Helvetica,Arial,sans-serif;
+  font:normal 22px/31px 'Figtree',Helvetica,Arial,sans-serif;
   letter-spacing:0.01em;
   position:relative;
   display:inline-block;
@@ -996,7 +1009,7 @@ padding-bottom: 2px;
   width:82.64887%
 }
 .block--intro {
-  font:normal 30px/42px "Suisse Intl",Helvetica,Arial,sans-serif;
+  font:normal 30px/42px 'Figtree',Helvetica,Arial,sans-serif;
   letter-spacing:0.01em
 }
 @media (max-width: 1225px) {
@@ -1029,7 +1042,7 @@ padding-bottom: 2px;
   grid-column:span 3
 }
 .block--large {
-  font:normal 45px/60px "Suisse Intl",Helvetica,Arial,sans-serif;
+  font:normal 45px/60px'Figtree',Helvetica,Arial,sans-serif;
   letter-spacing:0
 }
 @media (max-width: 1225px) {

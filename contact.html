@@ -15,15 +15,19 @@
     <link href="https://db.onlinewebfonts.com/c/c446362802681bacaacbad0f39bfc1a5?family=SuisseIntl-Medium" rel="stylesheet"> 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@600&family=Gelasio&display=swap" rel="stylesheet">    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@600&family=Gelasio&display=swap" rel="stylesheet">    
+    <link rel="stylesheet" href="stylewhite.css">
 
     <!-- CSS flickity-->
-    <!-- CSS -->
+ 
     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.2.2/flickity.min.css" rel="stylesheet">
+  
+    <!--  AOS -->
+   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 
-
-
+   <!--  AOS -->
 <link rel="stylesheet" href="flickity.css" media="screen">
 <script src="flickity.pkgd.min.js"></script>
 <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
@@ -32,18 +36,10 @@
 <body>
   <main>
 
- <!-- arrow -->
-  <a _ngcontent-serverapp-c84="" aria-label="Homepage block section" class="arrow"></a>
-  <a _ngcontent-serverapp-c84="" role="button" tabindex="0"
-   class="stretched-link" aria-label="New modular design" href="/project.html">
-  </a>
- <!-- arrow -->
-
-<div class="container1">
  <!-- nav -->
-  <nav class="navbar navbar-dark bg-dark fixed-top hide-navbar">
+  <nav class="navbar navbar-dark bg-dark fixed-top">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">Saba Seddigh</a>
+      <a class="navbar-brand show-navbar" href="#">Saba Seddigh</a>
 
     
       <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
@@ -73,12 +69,8 @@
       </li>
 
           </ul>
-          <form class="d-flex mt-3" role="search">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-secondary" type="submit">Search</button>
-          </form>
-          <footer class="bg-dark">
-            
+          <footer class="bg-dark text-white nav-footers">
+
             <div class="social-links d-flex justify-content-center">
               <a href="https://www.github.com/sabaseddigh" target="_blank"  title="GitHub Profile">
                 <i class="fab fa-github text-white"></i>
@@ -89,7 +81,7 @@
               <a href="https://www.twitter.com/saba_seddigh" target="_blank" title="Twitter Profile">
                 <i class="fab fa-twitter text-white"></i>
               </a>
-            </div>        
+            </div>         
           <div class="d-flex justify-content-center mb-2">
             <a href="mailto:sabaseddighch@gmail.com" class="email-link" class= email-position title="Email Saba">
               sabaseddighch@gmail.com
@@ -104,42 +96,8 @@
  <!-- nav -->
 
 
-
 <!-- jQuery -->
 <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-
-
-<!-- JavaScript flickity-->
-<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
-<script src="https://unpkg.com/flickity-hash@2/hash.js"></script>
-
-
-
-   <!-- slideshow body -->     
-<script>
-$(document).ready(function() {
-  // Initialize Flickity carousel
-$('.main-carousel').flickity({
-  // options
-  cellAlign: 'center',
-  contain: true ,
-  autoPlay: true,
-  pauseAutoPlayOnHover: false,
-  // advance cells every 3 seconds
-  freeScroll: true,
-  wrapAround: true,
-  fade: true,
-  imagesLoaded: true,
-  accessibility: false,
-  groupCells: true,
-
-});
-
-});
-</script>
-
-   <!-- slideshow body -->   
-
 
 <script>
 // Get the navbar element
@@ -165,45 +123,37 @@ const toggleNavbar = () => {
 
 // Attach the toggleNavbar function to the window's scroll event
 window.addEventListener('scroll', toggleNavbar);
+
+window.onload = function() {
+  showNavbar();
+};
 </script>
 
-<div>
- <div class="block block--large col-8">
-  <p>As public and natural realms are continually eroded, I believe architecture should concern itself with the whole of the built environment.</p>
 
-  <p2>By intentionally drawing from and contributing to the systems that are intrinsic to a place, our projects are evolving experiments in the creation of a more elastic definition of architecture: one that connects the loose ends of art, landscape, infrastructure, and ecology to create new forms for public engagement.</p2>
- 
-
- </div>
-
+<div class="container1">
+  <div data-aos="fade-up" data-aos-easing="linear" data-aos-offset="100" data-aos-duration="4000">
+<h2 class="titlebody">Contact</h2>
 </div>
-
-<h2 class="titlebody">Projects</h2>
 <div class="grid-container">
   <div class="item1">  
-    <div class="item1-content">  
-    <div class="main-carousel">
+    <div class="item1-content ">  
+      <div data-aos="fade-up" data-aos-easing="linear" data-aos-offset="100" data-aos-duration="4000">
+        <p class="justify-content-center">The Sustainability Group employs the Foster + Partners Responsibility Framework (FRF) across all projects. </p> <p>The framework measures sustainability performance and captures and shares key data as evidence. This ensures that progress across all projects can be tracked, audited, and reported. Information for the FRF is provided by Sustainability Assessors within the project teams.</p>
 
-    <div class="carousel-cell">
-      <img src="images/saba.jpg">
-      <div class="slide-text">Slide 1</div>
-  
-    </div>
-    <div class="carousel-cell">
-      <img src="images/cat.png">
-      <div class="slide-text">Slide 2</div>
-  
-    </div>
-    <div class="carousel-cell">
-      <img src="images/weather1.png" >
-      <div class="slide-text">Slide 3</div>
-  
-  
-    </div>
+      
+  <p>As public and natural realms are continually eroded, I believe architecture should concern itself with the whole of the built environment. </p>
+ 
+      </div>
   </div>
 	</div>
+
+    <div class="item2"> 
+
+          <img class="qr-img" data-src="images/qrcode.jpg?w=1600" data-srcset="images/qrcode.jpg?w=100 100w,images/qrcode.jpg?w=200 200w,images/qrcode.jpg?w=300 300w,images/qrcode.jpg?w=400 400w,images/qrcode.jpg?w=500 500w,images/qrcode.jpg?w=640 640w,images/qrcode.jpg?w=750 750w,images/qrcode.jpg?w=828 828w,images/qrcode.jpg?w=1024 1024w,images/qrcode.jpg?w=1125 1125w,images/qrcode.jpg?w=1242 1242w,images/qrcode.jpg?w=1280 1280w,images/qrcode.jpg?w=1400 1400w,images/qrcode.jpg?w=1500 1500w,images/qrcode.jpg?w=1600 1600w,images/qrcode.jpg?w=1700 1700w,images/qrcode.jpg?w=1800 1800w,images/qrcode.jpg?w=1920 1920w" data-sizes="auto" alt="" src="images/qrcode.jpg?w=1600" sizes="310px" srcset="images/qrcode.jpg?w=100 100w,images/qrcode.jpg?w=200 200w,images/qrcode.jpg?w=300 300w,images/qrcode.jpg?w=400 400w,images/qrcode.jpg?w=500 500w,images/qrcode.jpg?w=640 640w,images/qrcode.jpg?w=750 750w,images/qrcode.jpg?w=828 828w,images/qrcode.jpg?w=1024 1024w,images/qrcode.jpg?w=1125 1125w,images/qrcode.jpg?w=1242 1242w,images/qrcode.jpg?w=1280 1280w,images/qrcode.jpg?w=1400 1400w,images/qrcode.jpg?w=1500 1500w,images/qrcode.jpg?w=1600 1600w,images/qrcode.jpg?w=1700 1700w,images/qrcode.jpg?w=1800 1800w,images/qrcode.jpg?w=1920 1920w">
+
+    </div>
+
   </div>
-  <div class="item2">By intentionally drawing from and contributing to the systems that are intrinsic to a place, our projects are evolving experiments in the creation of a more elastic definition of architecture: one that connects the loose ends of art, landscape, infrastructure, and ecology to create new forms for public engagement.</div>
 
 </div>
 
@@ -212,7 +162,7 @@ window.addEventListener('scroll', toggleNavbar);
 
 </div>
 
-  </main>
+
 <footer>
 
   <div class="container">
@@ -242,8 +192,8 @@ window.addEventListener('scroll', toggleNavbar);
       </div>
 
       <div class="paddingright col-md-5">
- <a role="button" class="back-to-top  text-white" class="btn btn-transparent text-white fw-bolder" target="" title="Back to Top" aria-label="Back to Top" style="opacity: 1;" href=""><span>Back To Top</span>
-          <i class="fa-arrow-up-long fa-solid text-white"></i></a>
+ <a role="button" class="back-to-top  text-black" class="btn btn-transparent text-black fw-bolder" target="" title="Back to Top" aria-label="Back to Top" style="opacity: 1;" href=""><span>Back To Top</span>
+          <i class="fa-arrow-up-long fa-solid text-black"></i></a>
        
         <div class="social-links">
 
@@ -262,7 +212,7 @@ window.addEventListener('scroll', toggleNavbar);
 
 
        </div>     
-    <p class="copyright  text-white">&copy; 2023 Saba Seddigh. All Rights Reserved.</p>
+    <p class="copyright">&copy; 2023 Saba Seddigh. All Rights Reserved.</p>
 
 
       </div>
@@ -275,8 +225,10 @@ window.addEventListener('scroll', toggleNavbar);
 
 </footer>
 
-
-
+  </main>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>
