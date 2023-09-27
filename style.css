@@ -2,7 +2,7 @@
 
 .slide-text {
   position: absolute;
-  bottom: 55px; 
+  bottom: 45px; 
   left: 0;
   right: 0;
   margin: auto;
@@ -11,7 +11,7 @@
   color:#ffffff;
   font-size: 20px;
   font-family: 'Figtree', sans-serif;
-  text-shadow: 1px 1px 1px #111111;
+  text-shadow: 1px 2px 1px #111111;
   z-index: 1; 
 }
 
@@ -273,19 +273,20 @@ footer .social-links a:hover {
   margin-bottom: 20px;
 }
 
-.carousel-cell {
-  width: auto; /* full width */
+ .carousel-cell {
+  width: 400PX; /* full width */
   height: 400px;
   background: #222;
   /* center images in cells with flexbox */
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-right: 10px;
+  margin-right: 20px;
   border-radius: 10px;
   
 
 }
+
 
 .carousel-cell img {
   display: block;
@@ -329,7 +330,7 @@ padding-bottom: 2px;
 /* Page dots */
 .slideshow .flickity-page-dots {
   position: absolute;
-  bottom: 25px; /* adjust as needed */
+  bottom: 15px; /* adjust as needed */
   left: 50%;
   transform: translateX(-50%);
   z-index: 1;
@@ -377,7 +378,9 @@ padding-bottom: 2px;
          height:100%;
     }
     .carousel-cell {
-       width: 70%; }
+       width: 100%;
+      justify-content: center;
+      }
   }
   /* grid-container*/
 
@@ -479,7 +482,7 @@ padding-bottom: 2px;
 }
 
 
-.arrow[_ngcontent-serverApp-c84] {
+.arrow{
   background:rgba(255,255,255,.25);
   width:40px;
   height:80px;
@@ -489,19 +492,19 @@ padding-bottom: 2px;
   z-index:1;
   right:1.5rem
 }
-.arrow[_ngcontent-serverApp-c84]:hover {
+.arrow:hover {
   background:rgba(255,255,255,.4);
   transition:all .3s ease-in-out
 }
-.arrow[_ngcontent-serverApp-c84]:after,
-.arrow[_ngcontent-serverApp-c84]:before {
+.arrow:after,
+.arrow:before {
   content:"";
   display:block;
   box-sizing:border-box;
   position:absolute;
   bottom:4px
 }
-.arrow[_ngcontent-serverApp-c84]:after {
+.arrow:after {
   width:8px;
   height:8px;
   border-bottom:2px solid;
@@ -511,7 +514,7 @@ padding-bottom: 2px;
   transform:rotate(-45deg);
   border-color:#fff
 }
-.arrow[_ngcontent-serverApp-c84]:before {
+.arrow:before {
   width:2px;
   height:35px;
   top:50%;
