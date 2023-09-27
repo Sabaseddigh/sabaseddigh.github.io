@@ -142,7 +142,7 @@ nav a:hover {
 .line {
   width: 98%; /* Set the width to 100% to span the entire page */
   height: 1px; /* Set the height of the line */
-  background-color:#5e5e5e ; /* Set the color of the line */
+  background-color:#ffffff ; /* Set the color of the line */
 margin: auto; /* Center horizontally */
 
 
@@ -234,7 +234,7 @@ footer .social-links {
 }
 
 p{
-  color: #5e5e5e;
+  color: #ffffff;
 }
 
 .nav-footers{
@@ -265,16 +265,16 @@ footer .social-links a:hover {
 }
 
 .block--large {
-  font: normal 25px/40px "Suisse Intl",Helvetica,Arial,sans-serif;
+  font: normal 24px/30px  'Figtree',sans-serif;
   letter-spacing: 0;
   color: #ffffff;
-  margin-left: 40px;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-top: 50px;
+  margin-bottom: 40px;
 }
 
  .carousel-cell {
-  width: 400PX; /* full width */
+  width: 100%; /* full width */
   height: 400px;
   background: #222;
   /* center images in cells with flexbox */
@@ -462,7 +462,7 @@ padding-bottom: 2px;
 .grid-container > div {
   text-align: left;
   padding: 20px 0;
-  font-size: 20px;
+  font-size: 19px;
 }
 
 .item1 {
@@ -480,7 +480,14 @@ padding-bottom: 2px;
   text-align: left;
   padding-left: 20px;
 }
+.page-top__back:before {
+  content:"←";
+  display:inline-block;
+  padding-right:4px;
+  position:relative;
+  top:-3px;
 
+}
 
 .arrow{
   background:rgba(255,255,255,.25);
