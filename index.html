@@ -61,9 +61,8 @@
  <!-- arrow -->
   <a label="Homepage block section" class="arrow"></a>
   <a role="button" tabindex="0"
-   class="stretched-link" label="New modular design" href="">
+   class="stretched-link" label="New modular design" href="first-paragraph">
   </a>
-
 
  <!-- arrow -->
 <div class="container1">
@@ -218,7 +217,7 @@ window.addEventListener('scroll', toggleNavbar);
 
 <div>
  <div class="block block--large col-8">
-  <p>As public and natural realms are continually eroded, I believe architecture should concern itself with the whole of the built environment.</p>
+  <p id="first-paragraph">As public and natural realms are continually eroded, I believe architecture should concern itself with the whole of the built environment.</p>
 
   <p>By intentionally drawing from and contributing to the systems that are intrinsic to a place, our projects are evolving experiments in the creation of a more elastic definition of architecture: one that connects the loose ends of art, landscape, infrastructure, and ecology to create new forms for public engagement.</p>
  
@@ -344,12 +343,12 @@ window.addEventListener('scroll', toggleNavbar);
 
 
 <script>
-  const arrowLink = document.querySelector('.arrow');
-  const firstParagraph = document.querySelector('<h2');
-
-  arrowLink.addEventListener('click', (event) => {
+  const button = document.querySelector('.stretched-link');
+  const firstParagraph = document.querySelector('#first-paragraph');
+  
+  button.addEventListener('click', (event) => {
     event.preventDefault();
-    firstParagraph.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    firstParagraph.scrollIntoView({ behavior: 'smooth' });
   });
 </script>
 
