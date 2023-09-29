@@ -61,10 +61,11 @@
  <!-- arrow -->
   <a label="Homepage block section" class="arrow"></a>
   <a role="button" tabindex="0"
-   class="stretched-link" label="New modular design" href="/project.html">
+   class="stretched-link" label="New modular design" href="">
   </a>
- <!-- arrow -->
 
+
+ <!-- arrow -->
 <div class="container1">
  <!-- nav -->
   <nav class="navbar navbar-dark bg-dark fixed-top hide-navbar">
@@ -104,13 +105,13 @@
 
           <div class="social-links d-flex justify-content-center">
             <a href="https://www.github.com/sabaseddigh" target="_blank"  title="GitHub Profile">
-              <i class="fab fa-github"></i>
+              <i class="fab fa-github text-white"></i>
             </a>
             <a href="https://www.linkedin.com/in/sabaseddigh" target="_blank" title="LinkedIn Profile">
-              <i class="fa-brands fa-linkedin"></i>
+              <i class="fa-brands fa-linkedin text-white"></i>
             </a>
             <a href="https://www.twitter.com/saba_seddigh" target="_blank" title="Twitter Profile">
-              <i class="fab fa-twitter"></i>
+              <i class="fab fa-twitter text-white"></i>
             </a>
           </div>          
           <div class="d-flex justify-content-center mb-2">
@@ -125,7 +126,6 @@
   </nav>
 
  <!-- nav -->
-
 
 
 <!-- jQuery -->
@@ -269,7 +269,7 @@ window.addEventListener('scroll', toggleNavbar);
   <div class="item2">By intentionally drawing from and contributing to the systems that are intrinsic to a place, our projects are evolving experiments in the creation of a more elastic definition of architecture: one that connects the loose ends of art, landscape, infrastructure, and ecology to create new forms for public engagement.
   <br>
   <br>
-  <a href="/projects" class="page-top__back fx-underline-ani text-white">See All Projects</a>
+  <a href="/projects" class="page-top__back fx-underline-ani text-black">See All Projects</a>
 </div>
 </div>
 
@@ -308,8 +308,8 @@ window.addEventListener('scroll', toggleNavbar);
       </div>
 
       <div class="paddingright col-md-5">
- <a role="button" class="back-to-top  text-white" class="btn btn-transparent text-white fw-bolder" target="" title="Back to Top" aria-label="Back to Top" style="opacity: 1;" href=""><span>Back To Top</span>
-          <i class="fa-arrow-up-long fa-solid text-white"></i></a>
+ <a role="button" class="back-to-top  text-black" class="btn btn-transparent text-black fw-bolder" target="" title="Back to Top" aria-label="Back to Top" style="opacity: 1;" href=""><span>Back To Top</span>
+          <i class="fa-arrow-up-long fa-solid text-black"></i></a>
        
         <div class="social-links">
 
@@ -328,7 +328,7 @@ window.addEventListener('scroll', toggleNavbar);
 
 
        </div>     
-    <p class="copyright  text-white">&copy; 2023 Saba Seddigh. All Rights Reserved.</p>
+    <p class="copyright  text-black">&copy; 2023 Saba Seddigh. All Rights Reserved.</p>
 
 
       </div>
@@ -342,6 +342,16 @@ window.addEventListener('scroll', toggleNavbar);
 </footer>
 
 
+
+<script>
+  const arrowLink = document.querySelector('.arrow');
+  const firstParagraph = document.querySelector('<h2');
+
+  arrowLink.addEventListener('click', (event) => {
+    event.preventDefault();
+    firstParagraph.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  });
+</script>
 
 </body>
 

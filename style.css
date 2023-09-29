@@ -17,10 +17,10 @@
 
 body{
   font-family: 'Figtree', sans-serif;
-  background-color:#1A1A1A;
+  background-color:#ffffff;
   margin-bottom: 55px;
   justify-content: center;
-  color: #ffffff;
+  color: #000000;
 
 }
 .container1{
@@ -41,16 +41,14 @@ html, body {
 .container-top::after {
   content: '';
   position: absolute;
-  bottom: -25px;
+  bottom: 0px;
   left: 0;
   width: 100%;
   height: 115px;
   background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent);  
   z-index: 0 ;
 }
-  .container-top {
-    filter: drop-shadow(0 20px 10px rgba(0,0,0,0.8)); 
-  }
+
 .navbar {
   transition: background-color 0.3s ease;
     padding-top: 1.2rem;
@@ -142,7 +140,7 @@ nav a:hover {
 .line {
   width: 98%; /* Set the width to 100% to span the entire page */
   height: 1px; /* Set the height of the line */
-  background-color:#ffffff ; /* Set the color of the line */
+  background-color:#000000 ; /* Set the color of the line */
 margin: auto; /* Center horizontally */
 
 
@@ -209,10 +207,10 @@ font-size: medium;
 ul.list-white {
   list-style-type: none;
  
- text-decoration-color: #ffffff; 
+ text-decoration-color: #000000; 
 }
 ul.list-white li a {
-  color: white; /* Set the color to white */
+  color: rgb(0, 0, 0); /* Set the color to white */
   text-decoration: none; /* Remove the underline */
   font-size: 19px;
 
@@ -234,7 +232,7 @@ footer .social-links {
 }
 
 p{
-  color: #ffffff;
+  color: #000000;
 }
 
 .nav-footers{
@@ -255,7 +253,7 @@ footer .email-link:hover {
 
 footer .social-links a {
   margin: 0px 5px;
-  color:rgb(241, 244, 244);
+  color:rgb(0, 0, 0);
   border-radius: 20%;
   font-size: 19px;
   transition: all 100ms ease-in-out;
@@ -267,7 +265,7 @@ footer .social-links a:hover {
 .block--large {
   font: normal 24px/30px  'Figtree',sans-serif;
   letter-spacing: 0;
-  color: #ffffff;
+  color: #000000;
   margin-left: 20px;
   margin-top: 50px;
   margin-bottom: 40px;
@@ -458,12 +456,12 @@ padding-bottom: 2px;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   grid-auto-rows: minmax(100px, auto);
   gap: 20px;
-  padding: 10px;
+  padding: 30px 10px 30px;
 }
 
 .grid-container > div {
   text-align: left;
-  padding: 20px 0;
+  padding: 0px 0;
   font-size: 19px;
 }
 
@@ -471,16 +469,17 @@ padding-bottom: 2px;
   grid-column-start: 1;
   grid-column-end: 3;
 
-
 }
 
 .item1-content {
   width: 100%; /* Ensures the content stays within the item1's boundary */
 }
 .grid-container > div.item2 {
-  border-left: 2px solid #ffffff;
+  border-left: 2px solid #000000;
   text-align: left;
   padding-left: 20px;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 .page-top__back:before {
   content:"←";
@@ -492,7 +491,7 @@ padding-bottom: 2px;
 }
 
 .arrow{
-  background:rgba(255,255,255,.25);
+  background:rgba(49, 48, 48, 0.521);
   width:40px;
   height:80px;
   border-radius:100px;
@@ -521,7 +520,7 @@ padding-bottom: 2px;
   top:50px;
   left:17px;
   transform:rotate(-45deg);
-  border-color:#fff
+  border-color:#ffffff
 }
 .arrow:before {
   width:2px;
@@ -529,6 +528,6 @@ padding-bottom: 2px;
   top:50%;
   left:50%;
   transform:translateY(-50%);
-  background:white
+  background:rgb(255, 255, 255)
 }
 
