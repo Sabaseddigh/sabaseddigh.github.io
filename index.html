@@ -30,8 +30,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@600&family=Gelasio&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-
+    <!--  AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+ 
+    <!--  AOS -->
     <!-- CSS flickity-->
+
     <!-- CSS -->
     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.2.2/flickity.min.css" rel="stylesheet">
@@ -215,7 +220,7 @@ const toggleNavbar = () => {
 window.addEventListener('scroll', toggleNavbar);
 </script>
 
-<div>
+  <div data-aos="fade-up" data-aos-easing="linear" data-aos-offset="100" data-aos-duration="4000">
  <div class="block block--large col-8">
   <p id="first-paragraph">As public and natural realms are continually eroded, I believe architecture should concern itself with the whole of the built environment.</p>
 
@@ -265,10 +270,14 @@ window.addEventListener('scroll', toggleNavbar);
   </div>
 	</div>
   </div>
-  <div class="item2">By intentionally drawing from and contributing to the systems that are intrinsic to a place, our projects are evolving experiments in the creation of a more elastic definition of architecture: one that connects the loose ends of art, landscape, infrastructure, and ecology to create new forms for public engagement.
+  <div data-aos="fade-up" data-aos-easing="linear" data-aos-offset="100" data-aos-duration="4000">
+
+  <div class="item2">
+    By intentionally drawing from and contributing to the systems that are intrinsic to a place, our projects are evolving experiments in the creation of a more elastic definition of architecture: one that connects the loose ends of art, landscape, infrastructure, and ecology to create new forms for public engagement.
   <br>
   <br>
   <a href="/projects" class="page-top__back fx-underline-ani text-black">See All Projects</a>
+</div>
 </div>
 </div>
 
@@ -340,7 +349,9 @@ window.addEventListener('scroll', toggleNavbar);
 
 </footer>
 
-
+<script>
+  AOS.init();
+</script>
 
 <script>
   const button = document.querySelector('.stretched-link');

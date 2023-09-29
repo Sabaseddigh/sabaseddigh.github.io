@@ -791,7 +791,7 @@ em {
   }
 }
 .side-item__text {
-  font:normal 19px/23px 'Figtree',Helvetica,Arial,sans-serif;
+  font:normal 18px/23px 'Figtree',Helvetica,Arial,sans-serif;
   letter-spacing:0.015em;
   height: fit-content;
 }
