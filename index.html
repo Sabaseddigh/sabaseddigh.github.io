@@ -54,14 +54,15 @@
    
   <div class="container-top">
   <div class="slideshow">
-  <div class="carousel-cell-top"id="carousel-cell1"><img src="images/photo1.jpg"><div class="slide-text">Post-Disaster Temporary Shelter Design</div></div>
+  <div class="carousel-cell-top"id="carousel-cell1"><video id="my-video" autoplay muted loop>
+      <source src="images/vidarmovie.mp4" type="video/quicktime">
+    </video><div class="slide-text">Post-Disaster Temporary Shelter Design</div></div>
   <div class="carousel-cell-top"id="carousel-cell2"><img src="images/photo2.jpg"><div class="slide-text">Post-Disaster Temporary Shelter Design</div></div>
   <div class="carousel-cell-top"id="carousel-cell3"><img src="images/photo3.jpg"><div class="slide-text">Post-Disaster Temporary Shelter Design</div></div>
   <div class="carousel-cell-top"id="carousel-cell4"><img src="images/photo4.jpg"><div class="slide-text">Post-Disaster Temporary Shelter Design</div></div>
 </div>
 </div>
    <!-- slideshow top -->
-
 
  <!-- arrow -->
   <a label="Homepage block section" class="arrow"></a>
@@ -148,8 +149,23 @@
       $('.slideshow').flickity({
       cellAlign: 'center',
       contain: true ,
-      autoPlay: true,
-      pauseAutoPlayOnHover: false,
+      autoPlay: [
+      { 
+        delay: 10000, // duration for slide 1 (in milliseconds)
+      },
+      { 
+        delay: 3000, // duration for slide 2 (in milliseconds)
+      },
+      { 
+        delay: 30000, // duration for slide 3 (in milliseconds)
+
+      },
+      { 
+        delay: 3000, // duration for slide 4 (in milliseconds)
+      },
+      // add more objects for additional slides
+    ],
+      pauseAutoPlayOnHover: true,
       // advance cells every 3 seconds
       selectedAtraction: 0.2,
       friction: 0.3,
@@ -348,6 +364,16 @@ window.addEventListener('scroll', toggleNavbar);
 
 
 </footer>
+
+<script>
+  const video = document.getElementById('my-video');
+
+// Play the video when it's loaded
+video.addEventListener('loadeddata', () => {
+  video.play();
+});
+
+</script>
 
 <script>
   AOS.init();
