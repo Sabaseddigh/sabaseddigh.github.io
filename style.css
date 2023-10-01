@@ -176,10 +176,12 @@ footer {
   padding: 0;
   margin-bottom: 0px;
   margin-top: 30px;
+
 }
 
 .footer-links li {
   display: inline-block;
+  margin-right: 10px;
 }
 
 .social-links {
@@ -206,7 +208,6 @@ font-size: medium;
 }
 ul.list-white {
   list-style-type: none;
- 
  text-decoration-color: #000000; 
 }
 ul.list-white li a {
