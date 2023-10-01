@@ -54,7 +54,7 @@
    
   <div class="container-top">
   <div class="slideshow">
-  <div class="carousel-cell-top"id="carousel-cell1"><video id="my-video" autoplay muted loop>
+  <div class="carousel-cell-top"id="carousel-cell1"><video id="my-video" autoplay muted loop  playsinline>
       <source src="images/vidarmovie.mp4" type="video/quicktime">
     </video><div class="slide-text">Post-Disaster Temporary Shelter Design</div></div>
   <div class="carousel-cell-top"id="carousel-cell2"><img src="images/photo2.jpg"><div class="slide-text">Post-Disaster Temporary Shelter Design</div></div>
@@ -143,7 +143,7 @@
 
    <!-- slideshow top -->
 <script>
-  $(document).ready(function() {
+  var flkty = $(document).ready(function() {
     // Initialize Flickity carousel
       $('.slideshow').flickity({
       cellAlign: 'center',
@@ -158,13 +158,25 @@
       imagesLoaded: true,
       accessibility: true,
       setGallerySize: false,
-      hash: true,
     });
-  
+        
+      // Advance to the next slide after each slide's playback duration
+      flkty.on('change', function(index) {
+        if (index == 0) {
+          // First slide is a video, set its duration as the autoplay interval
+          var video = document.getElementById('my-video');
+          var duration = video.duration * 1000;
+          flkty.options.autoPlay = duration;
+          flkty.playPlayer();
+        } else {
+          // Other slides are images, set the default autoplay interval
+          flkty.options.autoPlay = 10000;
+          flkty.playPlayer();
+        }
+      });
   });
   </script>
      <!-- slideshow top -->
-
 
    <!-- slideshow body -->     
 <script>
