@@ -58,8 +58,10 @@
       <source src="images/vidarmovie.mp4" type="video/quicktime">
     </video><div class="slide-text">Vidar Residential Complex</div></div>
   <div class="carousel-cell-top"id="carousel-cell2"><img src="images/VIDAR/V4.jpg"><div class="slide-text">Vidar Residential Complex</div></div>
-  <div class="carousel-cell-top"id="carousel-cell3"><img src="images/SHELTER/H15.jpg"><div class="slide-text">Post-Disaster Temporary Shelter Design</div></div>
-  <div class="carousel-cell-top"id="carousel-cell4"><img src="images/sepehri.jpg"><div class="slide-text">Sohrab Sepeheri's Residential Complex</div></div>
+  <div class="carousel-cell-top"id="carousel-cell3"><video id="my-video" autoplay muted loop  playsinline>
+    <source src="images/My Movie 2-2.MP4" type="video/quicktime">
+  </video><div class="slide-text">Sepidar Residential Complex</div></div>
+  <div class="carousel-cell-top"id="carousel-cell4"><img src="images/SHELTER/H15.jpg"><div class="slide-text">Post-Disaster Temporary Shelter Design</div></div>
 </div>
 </div>
    <!-- slideshow top -->
@@ -354,10 +356,11 @@ window.addEventListener('scroll', toggleNavbar);
         </div>
 
 
-
-
-
 </footer>
+
+<script>
+  AOS.init();
+</script>
 
 <script>
   const video = document.getElementById('my-video');
@@ -368,11 +371,6 @@ video.addEventListener('loadeddata', () => {
 });
 
 </script>
-
-<script>
-  AOS.init();
-</script>
-
 <script>
   const button = document.querySelector('.arrow');
   const firstParagraph = document.querySelector('#first-paragraph');
