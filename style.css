@@ -273,12 +273,13 @@ footer .social-links a:hover {
  .carousel-cell {
   width: 100%; /* full width */
   height: 400px;
+  background: #222;
   /* center images in cells with flexbox */
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-right: 0px;
-  border-radius: 5px;
+  margin-right: 10px;
+  border-radius: 7px;
   
 
 }
@@ -289,7 +290,7 @@ footer .social-links a:hover {
   max-height: 100%;
     border-radius: 10px;
     min-width: 150px;
-    min-height: 100px;
+    min-height: 150px;
   }
 
   .carousel-cell-top {
@@ -393,6 +394,7 @@ padding-bottom: 2px;
         object-fit:cover; 
         width: 100vw;
       }
+      
   }
   /* grid-container*/
 
@@ -415,6 +417,7 @@ padding-bottom: 2px;
   object-fit:cover; 
   width: 100vw;
 }
+
 }
 @media (min-width: 577px) and (max-width: 676px) {
   .slideshow {
@@ -433,6 +436,15 @@ padding-bottom: 2px;
   height: 100%;
   object-fit:cover; 
   width: 100vw;
+}
+
+}
+@media (min-width: 211px) and (max-width: 776px) {
+  .main-carousel{
+    height:  fit-content;
+  }
+.carousel-cell{
+  height:  fit-content;
 }
 }
 
@@ -454,6 +466,9 @@ padding-bottom: 2px;
   height: 100%;
   object-fit:cover; 
   width: 100vw;
+}
+.main-carousel{
+  height:  400px;
 }
 }
 /* Large screens */
