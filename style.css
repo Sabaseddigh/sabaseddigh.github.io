@@ -439,7 +439,7 @@ padding-bottom: 2px;
 }
 
 }
-@media (min-width: 211px) and (max-width: 776px) {
+@media (min-width: 150px) and (max-width: 1200px) {
   .main-carousel{
     height:  fit-content;
   }
@@ -467,9 +467,7 @@ padding-bottom: 2px;
   object-fit:cover; 
   width: 100vw;
 }
-.main-carousel{
-  height:  400px;
-}
+
 }
 /* Large screens */
 @media (min-width: 993px) {
