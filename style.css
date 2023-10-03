@@ -31,14 +31,12 @@ body{
   flex-direction: column;
   padding-bottom: 20px; /* footer height */
 }
-.container-top{
-margin: 0 auto;
-}
+
 html, body {
   height: 100%;
 }
 
-.container-top::after {
+.slideshow::after {
   content: '';
   position: absolute;
   bottom: 0px;
