@@ -71,7 +71,7 @@ html, body {
     transition: transform 0.3s ease-in-out;
 }
 .hide-navbar {
-  transform: translateY(-100%);
+  transform: translateY(-99%);
   transition: transform 0.4s ease-in-out;
 }
 
@@ -296,7 +296,7 @@ footer .social-links a:hover {
   }
 
   .carousel-cell-top {
-    width: 100%; /* full width */
+    
     height:100%;
     background: #222;
     /* center images in cells with flexbox */
