@@ -2,7 +2,7 @@
 
 .slide-text {
   position: absolute;
-  bottom: 45px; 
+  bottom: 55px; 
   left: 0;
   right: 0;
   margin: auto;
@@ -12,6 +12,20 @@
   font-size: 20px;
   font-family: 'Figtree', sans-serif;
   text-shadow: 1px 2px 1px #111111;
+  z-index: 1; 
+}
+.main-carousel .slide-text {
+  position: absolute;
+  bottom: 20px; 
+  left: 0;
+  right: 0;
+  margin: auto;
+  letter-spacing: 0.015em;
+  text-align: center;
+  color:#ffffff;
+  font-size: 18px;
+  font-family: 'Figtree', sans-serif;
+  text-shadow: 2px 2px 1px #111111;
   z-index: 1; 
 }
 
@@ -351,6 +365,30 @@ padding-bottom: 2px;
 .flickity-page-dots .dot.is-selected {
   background: white;
 }
+
+
+.main-carousel .flickity-page-dots {
+  position: absolute;
+  bottom: -15px; /* adjust as needed */
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+
+  /* white circles */
+  .main-carousel .flickity-page-dots .dot {
+    height: 6px;
+    width: 40px;
+
+    background: transparent;
+
+    margin: 0;
+    border-radius: 0;
+  }
+  /* fill-in selected dot */
+ .main-carousel .flickity-page-dots .dot.is-selected {
+    background: rgb(0, 0, 0);
+  }
 @media (max-width: 768px) {
   
   .footer-links li {
