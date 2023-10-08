@@ -352,6 +352,26 @@ window.onload = function() {
   </script>
     <!--  javascripts -->
     <script src="js/javascript.js"></script>
+
+    <script>
+      const images = document.querySelectorAll('.preview-projects img');
+
+      images.forEach((image) => {
+        image.addEventListener('mouseover', () => {
+          images.forEach((img) => {
+            if (img !== image) {
+              img.classList.add('active');
+            }
+          });
+        });
+
+        image.addEventListener('mouseout', () => {
+          images.forEach((img) => {
+            img.classList.remove('active');
+          });
+        });
+      });
+    </script>
 </body>
 
 </html>
