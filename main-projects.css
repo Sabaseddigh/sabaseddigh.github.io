@@ -569,42 +569,42 @@ em {
   width:74.2378%
 }
 .page-top__title {
-  font:normal 45px/60px 'Figtree',Helvetica,Arial,sans-serif;
+  font:normal 28px/36px 'Figtree',Helvetica,Arial,sans-serif;
   letter-spacing:0
 }
 @media (max-width: 1225px) {
   .page-top__title {
-    font-size:37px;
-    line-height:48px
+    font-size:28px;
+    line-height:30px
   }
 }
 @media (max-width: 1000px) {
   .page-top__title {
-    font-size:23px;
-    line-height:31px
+    font-size:22px;
+    line-height:28px
   }
 }
 *+.page-top__title {
-  margin-top:46px
+  margin-top:26px
 }
 .page-top__intro {
-  font:normal 30px/42px 'Figtree',Helvetica,Arial,sans-serif;
+  font:normal 22px/28px 'Figtree',Helvetica,Arial,sans-serif;
   letter-spacing:0.01em
 }
 @media (max-width: 1225px) {
   .page-top__intro {
-    font-size:25px;
-    line-height:35px
+    font-size:20px;
+    line-height:30px
   }
 }
 @media (max-width: 1000px) {
   .page-top__intro {
-    font-size:20px;
+    font-size:18px;
     line-height:27px
   }
 }
 .page-top__title+.page-top__intro {
-  margin-top:40px
+  margin-top:20px
 }
 .page-top__back:before {
   content:"←";
@@ -632,7 +632,7 @@ em {
   margin-bottom:35px
 }
 *+.page-filter {
-  margin-top:40px
+  margin-top:20px
 }
 .page-top+.page-filter {
   margin-top:60px
